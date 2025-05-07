@@ -1,0 +1,16 @@
+<script src="<?=base_url()?>assets/js/jquery-3.7.1.min.js"></script>
+<script src="<?=base_url()?>assets/js/jquery-ui.js"></script>
+<script src="<?=base_url()?>assets/js/bootstrap.min.js"></script>
+<script src="<?=base_url()?>assets/js/popper.min.js"></script>
+<script src="<?=base_url()?>assets/js/swiper-bundle.min.js"></script>
+<script src="<?=base_url()?>assets/js/slick.js"></script>
+<script src="<?=base_url()?>assets/js/waypoints.min.js"></script>
+<script src="<?=base_url()?>assets/js/jquery.counterup.min.js"></script>
+<script src="<?=base_url()?>assets/js/ScrollSmoother.min.js"></script>
+<script src="<?=base_url()?>assets/js/wow.min.js"></script>
+<script src="<?=base_url()?>assets/js/jquery.marquee.min.js"></script>
+<script src="<?=base_url()?>assets/js/gsap.min.js"></script>
+<script src="<?=base_url()?>assets/js/ScrollTrigger.min.js"></script>
+<script src="<?=base_url()?>assets/js/DrawSVGPlugin3.min.js"></script>
+<script src="<?=base_url()?>assets/js/jquery.fancybox.min.js"></script>
+<script src="<?=base_url()?>assets/js/custom.js"></script>
