@@ -5298,6 +5298,10 @@ header.style-3 .main-menu > ul > li .mega-menu .single-menu-item .home-img {
 }
 header.style-3 .main-menu > ul > li .mega-menu .single-menu-item .home-img img {
   border-radius: 10px;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  object-position: top;
 }
 header.style-3 .main-menu > ul > li .mega-menu .single-menu-item .home-img .home-version {
   position: absolute;
@@ -18440,7 +18444,8 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-card .portfolio-img-wrap .portfolio-img img {
   border-radius: 20px 20px 0 0;
-  max-height: 480px;
+  max-height: 520px;
+  height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
 }

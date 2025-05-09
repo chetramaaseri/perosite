@@ -32,32 +32,32 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="single-img">
-                            <img src="assets/img/innerpages/about-page-banner-img1.png" alt="">
+                            <img src="<?=base_url()?>assets/img/innerpages/about-page-banner-img1.png" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="vector">
-                            <img src="assets/img/innerpages/about-page-banner-vector1.png" alt="">
+                            <img src="<?=base_url()?>assets/img/innerpages/about-page-banner-vector1.png" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="single-img two">
-                            <img src="assets/img/innerpages/about-page-banner-img2.png" alt="">
+                            <img src="<?=base_url()?>assets/img/innerpages/about-page-banner-img2.png" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="single-img three">
-                            <img src="assets/img/innerpages/about-page-banner-img3.png" alt="">
+                            <img src="<?=base_url()?>assets/img/innerpages/about-page-banner-img3.png" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="vector">
-                            <img src="assets/img/innerpages/about-page-banner-vector2.png" alt="">
+                            <img src="<?=base_url()?>assets/img/innerpages/about-page-banner-vector2.png" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="single-img two">
-                            <img src="assets/img/innerpages/about-page-banner-img4.png" alt="">
+                            <img src="<?=base_url()?>assets/img/innerpages/about-page-banner-img4.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@
                                 <div class="swiper-slide">
                                     <div class="team-card two">
                                         <div class="team-img">
-                                            <a href="team-details.html"><img src="assets/img/home4/team-img1.png" alt=""></a>
+                                            <a href="team-details.html"><img src="<?=base_url()?>assets/img/home4/team-img1.png" alt=""></a>
                                         </div>
                                         <div class="team-content">
                                             <h5><a href="team-details.html">Mr. Jorche Milton</a></h5>
@@ -284,7 +284,7 @@
                                 <div class="swiper-slide">
                                     <div class="team-card two">
                                         <div class="team-img">
-                                            <a href="team-details.html"><img src="assets/img/home4/team-img2.png" alt=""></a>
+                                            <a href="team-details.html"><img src="<?=base_url()?>assets/img/home4/team-img2.png" alt=""></a>
                                         </div>
                                         <div class="team-content">
                                             <h5><a href="team-details.html">Robert Jhonson</a></h5>
@@ -320,7 +320,7 @@
                                 <div class="swiper-slide">
                                     <div class="team-card two">
                                         <div class="team-img">
-                                            <a href="team-details.html"><img src="assets/img/home4/team-img3.png" alt=""></a>
+                                            <a href="team-details.html"><img src="<?=base_url()?>assets/img/home4/team-img3.png" alt=""></a>
                                         </div>
                                         <div class="team-content">
                                             <h5><a href="team-details.html">Daniel Ryan</a></h5>
@@ -356,7 +356,7 @@
                                 <div class="swiper-slide">
                                     <div class="team-card two">
                                         <div class="team-img">
-                                            <a href="team-details.html"><img src="assets/img/home4/team-img5.png" alt=""></a>
+                                            <a href="team-details.html"><img src="<?=base_url()?>assets/img/home4/team-img5.png" alt=""></a>
                                         </div>
                                         <div class="team-content">
                                             <h5><a href="team-details.html">Alexander Benjamin</a></h5>
@@ -392,7 +392,7 @@
                                 <div class="swiper-slide">
                                     <div class="team-card two">
                                         <div class="team-img">
-                                            <a href="team-details.html"><img src="assets/img/innerpages/team-img1.png" alt=""></a>
+                                            <a href="team-details.html"><img src="<?=base_url()?>assets/img/innerpages/team-img1.png" alt=""></a>
                                         </div>
                                         <div class="team-content">
                                             <h5><a href="team-details.html">Benjamin Lucas</a></h5>
@@ -428,7 +428,7 @@
                                 <div class="swiper-slide">
                                     <div class="team-card two">
                                         <div class="team-img">
-                                            <a href="team-details.html"><img src="assets/img/innerpages/team-img2.png" alt=""></a>
+                                            <a href="team-details.html"><img src="<?=base_url()?>assets/img/innerpages/team-img2.png" alt=""></a>
                                         </div>
                                         <div class="team-content">
                                             <h5><a href="team-details.html">Samuel Henry</a></h5>
@@ -501,7 +501,7 @@
             <div class="row mb-70">
                 <div class="col-lg-12">
                     <div class="section-title-wrap">
-                        <img src="assets/img/innerpages/about-gallery-title-img.gif" alt="">
+                        <img src="<?=base_url()?>assets/img/innerpages/about-gallery-title-img.gif" alt="">
                         <div class="section-title three white">
                             <h2>Collective of 
                                 Creative Thinkers.</h2>
@@ -516,12 +516,12 @@
                         <div class="row g-2">
                             <div class="col-md-12 d-md-flex justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="assets/img/innerpages/about-page-gallery-img1-big.jpg">
-                                    <img src="assets/img/innerpages/about-page-gallery-img1.jpg" alt="">
+                                    <img src="<?=base_url()?>assets/img/innerpages/about-page-gallery-img1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-12 d-md-flex justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="assets/img/innerpages/about-page-gallery-img2-big.jpg">
-                                    <img src="assets/img/innerpages/about-page-gallery-img2.jpg" alt="">
+                                    <img src="<?=base_url()?>assets/img/innerpages/about-page-gallery-img2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-12 d-lg-flex d-none align-items-center justify-content-md-end gap-5">
@@ -534,7 +534,7 @@
                             </div>
                             <div class="col-md-12 d-lg-none d-md-flex justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="assets/img/innerpages/about-page-gallery-img6-big.jpg">
-                                    <img src="assets/img/innerpages/about-page-gallery-img6.jpg" alt="">
+                                    <img src="<?=base_url()?>assets/img/innerpages/about-page-gallery-img6.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -543,12 +543,12 @@
                         <div class="row g-2">
                             <div class="col-md-12 d-md-flex justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="assets/img/innerpages/about-page-gallery-img3-big.jpg">
-                                    <img src="assets/img/innerpages/about-page-gallery-img3.jpg" alt="">
+                                    <img src="<?=base_url()?>assets/img/innerpages/about-page-gallery-img3.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-12 d-md-flex justify-content-md-end">
                                 <a data-fancybox="gallery-01" href="assets/img/innerpages/about-page-gallery-img4-big.jpg">
-                                    <img src="assets/img/innerpages/about-page-gallery-img4.jpg" alt="">
+                                    <img src="<?=base_url()?>assets/img/innerpages/about-page-gallery-img4.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -567,12 +567,12 @@
                             </div>
                             <div class="col-md-12">
                                 <a data-fancybox="gallery-01" href="assets/img/innerpages/about-page-gallery-img5-big.jpg">
-                                    <img src="assets/img/innerpages/about-page-gallery-img5.jpg" alt="">
+                                    <img src="<?=base_url()?>assets/img/innerpages/about-page-gallery-img5.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-12 d-lg-block d-none">
                                 <a data-fancybox="gallery-01" href="assets/img/innerpages/about-page-gallery-img6-big.jpg">
-                                    <img src="assets/img/innerpages/about-page-gallery-img6.jpg" alt="">
+                                    <img src="<?=base_url()?>assets/img/innerpages/about-page-gallery-img6.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -598,32 +598,32 @@
                         <ul class="award-img-group">
                             <li class="active">
                                 <div class="award-img">
-                                    <img src="assets/img/innerpages/award-img-01.png" alt="" class="light">
-                                    <img src="assets/img/innerpages/award-img-01-dark.png" alt="" class="dark">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-01.png" alt="" class="light">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-01-dark.png" alt="" class="dark">
                                 </div>
                             </li>
                             <li>
                                 <div class="award-img">
-                                    <img src="assets/img/innerpages/award-img-02.png" alt="" class="light">
-                                    <img src="assets/img/innerpages/award-img-02-dark.png" alt="" class="dark">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-02.png" alt="" class="light">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-02-dark.png" alt="" class="dark">
                                 </div>
                             </li>
                             <li>
                                 <div class="award-img">
-                                    <img src="assets/img/innerpages/award-img-03.png" alt="" class="light">
-                                    <img src="assets/img/innerpages/award-img-03-dark.png" alt="" class="dark">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-03.png" alt="" class="light">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-03-dark.png" alt="" class="dark">
                                 </div>
                             </li>
                             <li>
                                 <div class="award-img">
-                                    <img src="assets/img/innerpages/award-img-04.png" alt="" class="light">
-                                    <img src="assets/img/innerpages/award-img-04-dark.png" alt="" class="dark">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-04.png" alt="" class="light">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-04-dark.png" alt="" class="dark">
                                 </div>
                             </li>
                             <li>
                                 <div class="award-img">
-                                    <img src="assets/img/innerpages/award-img-05.png" alt="" class="light">
-                                    <img src="assets/img/innerpages/award-img-05-dark.png" alt="" class="dark">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-05.png" alt="" class="light">
+                                    <img src="<?=base_url()?>assets/img/innerpages/award-img-05-dark.png" alt="" class="dark">
                                 </div>
                             </li>
                         </ul>
@@ -683,38 +683,38 @@
             <div class="partner-wrap">
                 <div class="marquee light">
                     <div class="marquee__group">
-                        <a href="#"><img src="assets/img/home1/partner-01.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-02.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-03.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-04.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-05.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-06.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-01.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-02.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-03.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-04.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-05.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-06.png" alt=""></a>
                     </div>
                     <div aria-hidden="true" class="marquee__group">
-                        <a href="#"><img src="assets/img/home1/partner-01.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-02.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-03.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-04.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-05.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-06.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-01.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-02.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-03.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-04.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-05.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-06.png" alt=""></a>
                     </div>
                 </div>
                 <div class="marquee dark">
                     <div class="marquee__group">
-                        <a href="#"><img src="assets/img/home1/partner-light-01.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-02.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-03.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-04.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-05.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-06.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-01.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-02.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-03.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-04.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-05.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-06.png" alt=""></a>
                     </div>
                     <div aria-hidden="true" class="marquee__group">
-                        <a href="#"><img src="assets/img/home1/partner-light-01.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-02.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-03.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-04.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-05.png" alt=""></a>
-                        <a href="#"><img src="assets/img/home1/partner-light-06.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-01.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-02.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-03.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-04.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-05.png" alt=""></a>
+                        <a href="#"><img src="<?=base_url()?>assets/img/home1/partner-light-06.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -740,15 +740,15 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-card two">
                                             <div class="company-logo">
-                                                <img src="assets/img/home1/testimonial-company-logo1.png" alt="" class="light">
-                                                <img src="assets/img/home1/testimonial-company-logo1-white.png" alt="" class="dark">
+                                                <img src="<?=base_url()?>assets/img/home1/testimonial-company-logo1.png" alt="" class="light">
+                                                <img src="<?=base_url()?>assets/img/home1/testimonial-company-logo1-white.png" alt="" class="dark">
                                             </div>
                                             <div class="testimonial-content">
                                                 <p>Outstanding Apps! They are very helpful & mindblowing to get services. Providing comprehensive care and creativity for customer satisfaction.</p>
                                             </div>
                                             <div class="author-area">
                                                 <div class="author-img">
-                                                    <img src="assets/img/home1/testimonial-author-img1.png" alt="">
+                                                    <img src="<?=base_url()?>assets/img/home1/testimonial-author-img1.png" alt="">
                                                 </div>
                                                 <div class="author-content">
                                                     <h5>Robertson Hilton</h5>
@@ -760,15 +760,15 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-card two">
                                             <div class="company-logo">
-                                                <img src="assets/img/home1/testimonial-company-logo2.png" alt="" class="light">
-                                                <img src="assets/img/home1/testimonial-company-logo2-white.png" alt="" class="dark">
+                                                <img src="<?=base_url()?>assets/img/home1/testimonial-company-logo2.png" alt="" class="light">
+                                                <img src="<?=base_url()?>assets/img/home1/testimonial-company-logo2-white.png" alt="" class="dark">
                                             </div>
                                             <div class="testimonial-content">
                                                 <p>Excellent Work! Evaluate the effectiveness of the team’s communication and collaboration throughout the project. I prefer that.</p>
                                             </div>
                                             <div class="author-area">
                                                 <div class="author-img">
-                                                    <img src="assets/img/home1/testimonial-author-img2.png" alt="">
+                                                    <img src="<?=base_url()?>assets/img/home1/testimonial-author-img2.png" alt="">
                                                 </div>
                                                 <div class="author-content">
                                                     <h5>Robert Baruni</h5>
@@ -780,15 +780,15 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-card two">
                                             <div class="company-logo">
-                                                <img src="assets/img/home1/testimonial-company-logo3.png" alt="" class="light">
-                                                <img src="assets/img/home1/testimonial-company-logo3-white.png" alt="" class="dark">
+                                                <img src="<?=base_url()?>assets/img/home1/testimonial-company-logo3.png" alt="" class="light">
+                                                <img src="<?=base_url()?>assets/img/home1/testimonial-company-logo3-white.png" alt="" class="dark">
                                             </div>
                                             <div class="testimonial-content">
                                                 <p>Fantastic Apps! They provide amazing services and are very helpful. delivering all-encompassing care and innovation to ensure client happiness.</p>
                                             </div>
                                             <div class="author-area">
                                                 <div class="author-img">
-                                                    <img src="assets/img/home1/testimonial-author-img3.png" alt="">
+                                                    <img src="<?=base_url()?>assets/img/home1/testimonial-author-img3.png" alt="">
                                                 </div>
                                                 <div class="author-content">
                                                     <h5>Hanry Macle</h5>
@@ -847,7 +847,7 @@
                             <li>
                                 <a href="#" class="single-rating two">
                                     <div class="logo">
-                                        <img src="assets/img/home1/icon/google-logo.svg" alt="">
+                                        <img src="<?=base_url()?>assets/img/home1/icon/google-logo.svg" alt="">
                                     </div>
                                     <div class="rating">
                                         <ul class="star">
@@ -866,22 +866,22 @@
                 </div>
                 <ul class="img-list">
                    <li class="single-img">
-                        <img src="assets/img/innerpages/about-page-testmonial-img1.png" alt="">
+                        <img src="<?=base_url()?>assets/img/innerpages/about-page-testmonial-img1.png" alt="">
                    </li> 
                    <li class="single-img">
-                        <img src="assets/img/innerpages/about-page-testmonial-img2.png" alt="">
+                        <img src="<?=base_url()?>assets/img/innerpages/about-page-testmonial-img2.png" alt="">
                    </li> 
                    <li class="single-img">
-                        <img src="assets/img/innerpages/about-page-testmonial-img3.png" alt="">
+                        <img src="<?=base_url()?>assets/img/innerpages/about-page-testmonial-img3.png" alt="">
                    </li> 
                    <li class="single-img">
-                        <img src="assets/img/innerpages/about-page-testmonial-img4.png" alt="">
+                        <img src="<?=base_url()?>assets/img/innerpages/about-page-testmonial-img4.png" alt="">
                    </li> 
                    <li class="single-img">
-                        <img src="assets/img/innerpages/about-page-testmonial-img5.png" alt="">
+                        <img src="<?=base_url()?>assets/img/innerpages/about-page-testmonial-img5.png" alt="">
                    </li> 
                    <li class="single-img">
-                        <img src="assets/img/innerpages/about-page-testmonial-img6.png" alt="">
+                        <img src="<?=base_url()?>assets/img/innerpages/about-page-testmonial-img6.png" alt="">
                    </li> 
                 </ul>
             </div>

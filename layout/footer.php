@@ -5,8 +5,8 @@
                 <div class="col-lg-3">
                     <div class="company-logo-and-location-area">
                         <div class="company-logo-area">
-                            <img src="assets/img/footer-logo3.svg" alt="">
-                            <a href="assets/company-desk.pdf" class="file-download-btn" download>
+                            <img width="180" src="<?=base_url()?>assets/img/footer-logo3.svg" alt="">
+                            <a href="<?=base_url('public/company-desk.pdf')?>" class="file-download-btn" download>
                                 <div class="icon">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M10.6758 2.80469H13.3242V11.0102H17.0039L12 17.5609L6.99609 11.0102H10.6758V2.80469Z"/>
@@ -21,14 +21,18 @@
                                 Company Desk
                             </a>
                         </div>
+                        <div class="social-area">
+                            <h5>Let’s Connect</h5>
+                            <ul class="social-list">
+                                <li><a href="<?=$_ENV['SOCIAL_FACEBOOK']?>"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="<?=$_ENV['SOCIAL_LINKEDIN']?>"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="<?=$_ENV['SOCIAL_INSTAGRAM']?>"><i class="bx bxl-instagram-alt"></i></a></li>
+                            </ul>
+                        </div>
                         <ul class="location-list">
                             <li>
-                                <span>New York</span>
-                                <a href="https://www.google.com/maps">123 Business St., Suite 456, City, State, ZIP Code, Country</a>
-                            </li>
-                            <li>
-                                <span>Australia</span>
-                                <a href="https://www.google.com/maps">123 Innovation Road, Suite 101Tech City, State, ZIP Code Country</a>
+                                <span>Ludhiana, Punjab</span>
+                                <a href="<?=$_ENV['GOOGLE_MAP']?>">Field Ganj, Ludhiana</a>
                             </li>
                         </ul>
                     </div>
@@ -37,21 +41,21 @@
                     <div class="footer-contact-wrap">
                         <div class="title-and-contact">
                             <div class="title-area">
-                                <h2>We are Global Digital Brand Tech Agency.</h2>
+                                <h2>Your Trusted Partner for Digital Growth</h2>
                             </div>
                             <ul class="contact-list">
                                 <li class="single-contact">
                                     <div class="icon">
-                                        <img src="assets/img/home1/icon/contact-mail-icon.svg" alt="">
+                                        <img src="<?=base_url()?>assets/img/home1/icon/contact-mail-icon.svg" alt="">
                                     </div>
                                     <div class="content">
                                         <span>Send Us Mail</span>
-                                        <a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#f59c9b939ab5908d9498859990db969a98"><span class="__cf_email__" data-cfemail="5930373f36193c21383429353c773a3634">[email&#160;protected]</span></a>
+                                        <a href="mailto:info@perosite.com"><span class="__cf_email__" data-cfemail="5930373f36193c21383429353c773a3634">info@perosite.com</span></a>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                        <a href="https://www.google.com/maps" class="primary-btn1 transparent">
+                        <a href="<?=$_ENV['GOOGLE_MAP']?>" class="primary-btn1 transparent">
                             <span>View Site Map
                                 <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round"></path>
@@ -72,48 +76,25 @@
                                         <h3>Company</h3>
                                     </div>
                                     <ul class="widget-list">
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="portfolio.html">Our Portfolio</a></li>
-                                        <li><a href="career.html">Careers <span>Hiring</span></a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="<?=base_url('about-us')?>">About us</a></li>
+                                        <li><a href="<?=base_url('our-portfolio')?>">Our Portfolio<span>Updated</span></a></li>
+                                        <li><a href="<?=base_url('articles')?>">Articles</a></li>
+                                        <li><a href="<?=base_url('contact-us')?>">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 d-flex justify-content-lg-center">
+                            <div class="col-lg-9 col-md-9 col-sm-6 d-flex justify-content-lg-center">
                                 <div class="footer-widget">
                                     <div class="widget-title">
-                                        <h3>Industries</h3>
+                                        <h3>Articles</h3>
                                     </div>
                                     <ul class="widget-list">
-                                        <li><a href="industry-details.html">Finance & Fintech</a></li>
-                                        <li><a href="industry-details.html">Healthcare & Life</a></li>
-                                        <li><a href="industry-details.html">Retail & Ecommerce</a></li>
-                                        <li><a href="industry-details.html">Government & Public</a></li>
-                                        <li><a href="industry-details.html">Travel & Hospitality</a></li>
+                                        <li><a href="<?=base_url('why-choose-best-website-development-company-punjab')?>">Why Choose the Best Website Development Company in Punjab</a></li>
+                                        <li><a href="<?=base_url('how-top-rated-web-design-services-punjab-boost-online-presence')?>">How Top Rated Web Design Services in Punjab Can Boost Your Online Presence</a></li>
+                                        <li><a href="<?=base_url('how-retail-ecommerce-businesses-benefit-custom-web-development')?>">How Retail & Ecommerce Businesses Benefit from Custom Web Development</a></li>
+                                        <li><a href="<?=base_url('role-of-seo-website-development-why-its-crucial')?>">The Role of SEO in Website Development: Why It's Crucial</a></li>
+                                        <li><a href="<?=base_url('how-web-development-enhances-your-brands-online-identity')?>">How Web Development Enhances Your Brand’s Online Identity</a></li>
                                     </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-5 d-flex justify-content-lg-end">
-                                <div class="newsletter-area">
-                                    <h3>Newsletter</h3>
-                                    <form class="newsletter-form">
-                                        <input type="email" placeholder="Email">
-                                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M17.9597 0.771505C18.0006 0.669287 18.0107 0.557308 17.9885 0.449451C17.9664 0.341594 17.9131 0.242601 17.8353 0.164747C17.7574 0.0868923 17.6584 0.033599 17.5506 0.0114739C17.4427 -0.0106512 17.3307 -0.000635146 17.2285 0.0402804L0.863689 6.58643H0.862564L0.354081 6.78892C0.257774 6.82734 0.173959 6.89163 0.111895 6.97469C0.0498308 7.05775 0.0119333 7.15635 0.00238854 7.25959C-0.00715624 7.36284 0.0120231 7.46671 0.0578081 7.55974C0.103593 7.65278 0.174202 7.73134 0.261834 7.78676L0.723068 8.07925L0.724193 8.0815L6.34337 11.6566L9.9185 17.2758L9.92075 17.2781L10.2132 17.7393C10.2688 17.8266 10.3474 17.8968 10.4404 17.9423C10.5334 17.9878 10.6371 18.0068 10.7401 17.9972C10.8432 17.9875 10.9416 17.9496 11.0245 17.8876C11.1073 17.8257 11.1715 17.742 11.21 17.6459L17.9597 0.771505ZM15.8977 2.89768L7.46721 11.3281L7.22534 10.9479C7.18103 10.8781 7.12188 10.819 7.0521 10.7747L6.67186 10.5328L15.1023 2.10233L16.4275 1.57248L15.8988 2.89768H15.8977Z"/>
-                                        </svg>
-                                    </form>
-                                    <div class="social-area">
-                                        <h5>Let’s Connect</h5>
-                                        <ul class="social-list">
-                                            <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
-                                            <li><a href="https://x.com/"><i class="bi bi-twitter-x"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a></li>
-                                            <li><a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a></li>
-                                            <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +106,7 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="copyright-and-social-area">
-                <p>Copyright 2025 <a href="https://www.egenslab.com/">Egens Lab</a> | All Right Reserved.</p>
+                <p>Copyright <?=date('Y')?> <a href="https://perosite.com/">Pero Solutions</a> | All Right Reserved.</p>
                 <div class="terms-condition">
                     <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <g>
@@ -135,7 +116,7 @@
                                 d="M11.3969 1C11.556 1 11.7086 1.06585 11.8212 1.18306C11.9337 1.30027 11.9969 1.45924 11.9969 1.625V10.375C11.9969 10.5408 11.9337 10.6997 11.8212 10.8169C11.7086 10.9342 11.556 11 11.3969 11C11.2378 11 11.0851 10.9342 10.9726 10.8169C10.8601 10.6997 10.7969 10.5408 10.7969 10.375V1.625C10.7969 1.45924 10.8601 1.30027 10.9726 1.18306C11.0851 1.06585 11.2378 1 11.3969 1Z"/>
                         </g>
                     </svg>
-                    <p>Our Business <a href="#">Policy, Terms & Condition</a></p>
+                    <p>Our Business <a href="<?= base_url('policy-terms-conditions') ?>">Policy, Terms & Condition</a></p>
                 </div>
             </div>
         </div>

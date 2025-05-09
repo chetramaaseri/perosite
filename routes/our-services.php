@@ -31,7 +31,7 @@
         <div class="container">
             <div class="banner-img-wrap">
                 <div class="banner-img">
-                    <img src="assets/img/innerpages/service-page-banner-img.jpg" alt="">
+                    <img src="<?=base_url()?>assets/img/innerpages/service-page-banner-img.jpg" alt="">
                 </div>
                 <div class="counter-wrap">
                     <div class="counter-area">
@@ -210,7 +210,7 @@
                                 <h3><a href="service-details.html">Web Development <br> & Design.</a></h3>
                             </div>
                             <div class="services-img">
-                                <img src="assets/img/home3/service-img1.jpg" alt="">
+                                <img src="<?=base_url()?>assets/img/home3/service-img1.jpg" alt="">
                             </div>
                             <div class="content">
                                 <p>Strategy that involves creating and sharing content on social a website's media platforms.</p>
@@ -243,7 +243,7 @@
                                 <h3><a href="service-details.html">Digital <br> Marketing</a></h3>
                             </div>
                             <div class="services-img">
-                                <img src="assets/img/home3/service-img2.jpg" alt="">
+                                <img src="<?=base_url()?>assets/img/home3/service-img2.jpg" alt="">
                             </div>
                             <div class="content">
                                 <p>Strategy that involves creating and sharing content on social a website's media platforms.</p>
@@ -278,7 +278,7 @@
                                 <h3><a href="service-details.html">E-commerce <br> Solutions</a></h3>
                             </div>
                             <div class="services-img">
-                                <img src="assets/img/home3/service-img3.jpg" alt="">
+                                <img src="<?=base_url()?>assets/img/home3/service-img3.jpg" alt="">
                             </div>
                             <div class="content">
                                 <p>Strategy that involves creating and sharing content on social a website's media platforms.</p>
@@ -311,7 +311,7 @@
                                 <h3><a href="service-details.html">Branding & <br> Graphic Design</a></h3>
                             </div>
                             <div class="services-img">
-                                <img src="assets/img/home3/service-img4.jpg" alt="">
+                                <img src="<?=base_url()?>assets/img/home3/service-img4.jpg" alt="">
                             </div>
                             <div class="content">
                                 <p>Strategy that involves creating and sharing content on social a website's media platforms.</p>
@@ -344,7 +344,7 @@
                                 <h3><a href="service-details.html">Consulting & <br> Strategy</a></h3>
                             </div>
                             <div class="services-img">
-                                <img src="assets/img/home3/service-img5.jpg" alt="">
+                                <img src="<?=base_url()?>assets/img/home3/service-img5.jpg" alt="">
                             </div>
                             <div class="content">
                                 <p>Strategy that involves creating and sharing content on social a website's media platforms.</p>

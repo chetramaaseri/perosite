@@ -37,7 +37,7 @@
                         <ul class="contact-list">
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/home1/icon/contact-call-icon.svg" alt="">
+                                    <img src="<?=base_url()?>assets/img/home1/icon/contact-call-icon.svg" alt="">
                                 </div>
                                 <div class="content">
                                     <span>Call 24/7 Hours</span>
@@ -46,7 +46,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/home1/icon/contact-mail-icon.svg" alt="">
+                                    <img src="<?=base_url()?>assets/img/home1/icon/contact-mail-icon.svg" alt="">
                                 </div>
                                 <div class="content">
                                     <span>Send Us Mail</span>
@@ -63,7 +63,7 @@
                         <ul class="contact-list">
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/home1/icon/contact-call-icon.svg" alt="">
+                                    <img src="<?=base_url()?>assets/img/home1/icon/contact-call-icon.svg" alt="">
                                 </div>
                                 <div class="content">
                                     <span>Call 24/7 Hours</span>
@@ -72,7 +72,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/home1/icon/contact-mail-icon.svg" alt="">
+                                    <img src="<?=base_url()?>assets/img/home1/icon/contact-mail-icon.svg" alt="">
                                 </div>
                                 <div class="content">
                                     <span>Send Us Mail</span>
@@ -89,7 +89,7 @@
                         <ul class="contact-list">
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/home1/icon/contact-call-icon.svg" alt="">
+                                    <img src="<?=base_url()?>assets/img/home1/icon/contact-call-icon.svg" alt="">
                                 </div>
                                 <div class="content">
                                     <span>Call 24/7 Hours</span>
@@ -98,7 +98,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/home1/icon/contact-mail-icon.svg" alt="">
+                                    <img src="<?=base_url()?>assets/img/home1/icon/contact-mail-icon.svg" alt="">
                                 </div>
                                 <div class="content">
                                     <span>Send Us Mail</span>
