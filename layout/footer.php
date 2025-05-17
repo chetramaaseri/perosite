@@ -6,7 +6,7 @@
                     <div class="company-logo-and-location-area">
                         <div class="company-logo-area">
                             <img width="180" src="<?=base_url()?>assets/img/footer-logo3.svg" alt="">
-                            <a href="<?=base_url('public/company-desk.pdf')?>" class="file-download-btn" download>
+                            <!-- <a href="<?=base_url('public/company-desk.pdf')?>" class="file-download-btn" download>
                                 <div class="icon">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M10.6758 2.80469H13.3242V11.0102H17.0039L12 17.5609L6.99609 11.0102H10.6758V2.80469Z"/>
@@ -19,7 +19,7 @@
                                     </svg>
                                 </div>
                                 Company Desk
-                            </a>
+                            </a> -->
                         </div>
                         <div class="social-area">
                             <h5>Let’s Connect</h5>
@@ -83,7 +83,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-9 col-md-9 col-sm-6 d-flex justify-content-lg-center">
+                            <!-- <div class="col-lg-9 col-md-9 col-sm-6 d-flex justify-content-lg-center">
                                 <div class="footer-widget">
                                     <div class="widget-title">
                                         <h3>Articles</h3>
@@ -96,7 +96,7 @@
                                         <li><a href="<?=base_url('how-web-development-enhances-your-brands-online-identity')?>">How Web Development Enhances Your Brand’s Online Identity</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

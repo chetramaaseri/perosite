@@ -116,8 +116,8 @@ unset($mobileSites[1]);
                     </div>
                 </div>
                 <ul class="menu-list">
-                    <li class="active"><a href="<?=base_url()?>" style="padding-right: 10px;">Home</a></li>
-                    <li class=""><a href="<?=base_url('about-us')?>" style="padding-right: 10px;">About Us</a></li>
+                    <li class="<?=base_url() == get_url() ? 'active' : ''?>"><a href="<?=base_url()?>" style="padding-right: 10px;">Home</a></li>
+                    <li class="<?=base_url('about-us') == get_url() ? 'active' : ''?>"><a href="<?=base_url('about-us')?>" style="padding-right: 10px;">About Us</a></li>
                     <li class="menu-item-has-children position-inherit">
                         <a href="<?=base_url('our-services')?>" class="drop-down">Services
                         </a>
@@ -203,7 +203,7 @@ unset($mobileSites[1]);
                             </div>
                         </div>
                     </li>
-                    <li class="menu-item-has-children position-inherit">
+                    <!-- <li class="menu-item-has-children position-inherit">
                         <a href="#" class="drop-down">Resources
                         </a>
                         <i class="bi bi-plus dropdown-icon"></i>
@@ -382,7 +382,7 @@ unset($mobileSites[1]);
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li class="menu-item-has-children position-inherit">
                         <a href="<?=base_url()?>" class="drop-down">Portfolio</a>
                         <i class="bi bi-plus dropdown-icon"></i>
@@ -402,7 +402,7 @@ unset($mobileSites[1]);
                                                 <div class="home-version">
                                                     <ul>
                                                         <li>
-                                                            <a href="<?=base_url('our-portfolio/web-development/'.pathinfo($site, PATHINFO_FILENAME))?>" class="light">
+                                                            <a href="<?=base_url('our-portfolio/web-development-services')?>" class="light">
                                                                 <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                                                     <g>
                                                                         <path

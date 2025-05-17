@@ -16,7 +16,7 @@ get_route();
                 <div class="col-lg-6 d-lg-block d-none">
                     <div class="home3-video-wrapper">
                         <div class="video-area">
-                            <video autoplay loop muted playsinline src="assets/video/home4-contact-video2.mp4"></video>
+                            <video autoplay loop muted playsinline src="assets/home.mp4"></video>
                             <img src="<?=base_url()?>assets/img/home3/banner-video-shape.png" alt="Digital Agency Services Overview" class="banner-vector">
                         </div>
                     </div>
