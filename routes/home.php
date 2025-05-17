@@ -208,7 +208,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -40px;" src="<?=base_url('public/web-sites/financial-website-development.png')?>" alt="">
+                                <img style="object-position: -40px;" src="<?=base_url('public/web-sites/financial-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -228,7 +228,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -70px;" src="<?=base_url('public/web-sites/travel-website-development.png')?>" alt="">
+                                <img style="object-position: -70px;" src="<?=base_url('public/web-sites/travel-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -248,7 +248,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -80px;" src="<?=base_url('public/web-sites/donation-website-development.png')?>" alt="">
+                                <img style="object-position: -80px;" src="<?=base_url('public/web-sites/donation-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -268,7 +268,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img src="<?=base_url('public/web-sites/hotel-website-development.png')?>" alt="">
+                                <img src="<?=base_url('public/web-sites/hotel-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">

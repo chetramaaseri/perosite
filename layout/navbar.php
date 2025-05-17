@@ -421,7 +421,7 @@ unset($mobileSites[1]);
                                     <div class="col-lg-3">
                                         <div class="single-menu-item">
                                             <a href="<?=base_url('our-portfolio/web-development-services')?>" class="home-img">
-                                                <img src="<?=base_url()?>assets/img/home1/mega-menu-home-img8.jpg" alt="">
+                                                <img src="<?=base_url()?>assets/img/home3/explore-more.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
