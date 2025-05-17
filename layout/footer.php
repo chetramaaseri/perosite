@@ -78,7 +78,7 @@
                                     <ul class="widget-list">
                                         <li><a href="<?=base_url('about-us')?>">About us</a></li>
                                         <li><a href="<?=base_url('our-portfolio')?>">Our Portfolio<span>Updated</span></a></li>
-                                        <li><a href="<?=base_url('articles')?>">Articles</a></li>
+                                        <!-- <li><a href="<?=base_url('articles')?>">Articles</a></li> -->
                                         <li><a href="<?=base_url('contact-us')?>">Contact Us</a></li>
                                     </ul>
                                 </div>

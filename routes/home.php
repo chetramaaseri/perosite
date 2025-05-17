@@ -160,7 +160,7 @@ get_route();
                     <div class="about-feature-card three magnetic-item">
                         <div class="card-content">
                             <h3>Keep Reading</h3>
-                            <a href="about.html">
+                            <a href="<?=base_url('about-us')?>">
                                 About Pero
                                 <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
@@ -208,13 +208,13 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -40px;" src="<?=base_url('public/web-sites/agfinserv.png')?>" alt="">
+                                <img style="object-position: -40px;" src="<?=base_url('public/web-sites/financial-website-development.png')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
                                     <i class="bi bi-plus"></i>
                                 </div>
-                                <a href="portfolio-details.html" class="details-btn">
+                                <a href="<?=base_url('our-portfolio')?>" class="details-btn">
                                     View Details
                                     <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
@@ -228,13 +228,13 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -70px;" src="<?=base_url('public/web-sites/bustravel.png')?>" alt="">
+                                <img style="object-position: -70px;" src="<?=base_url('public/web-sites/travel-website-development.png')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
                                     <i class="bi bi-plus"></i>
                                 </div>
-                                <a href="portfolio-details.html" class="details-btn">
+                                <a href="<?=base_url('our-portfolio')?>" class="details-btn">
                                     View Details
                                     <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
@@ -248,13 +248,13 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -80px;" src="<?=base_url('public/web-sites/k2m.png')?>" alt="">
+                                <img style="object-position: -80px;" src="<?=base_url('public/web-sites/donation-website-development.png')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
                                     <i class="bi bi-plus"></i>
                                 </div>
-                                <a href="portfolio-details.html" class="details-btn">
+                                <a href="<?=base_url('our-portfolio')?>" class="details-btn">
                                     View Details
                                     <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
@@ -268,13 +268,13 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img src="<?=base_url('public/web-sites/kamla.png')?>" alt="">
+                                <img src="<?=base_url('public/web-sites/hotel-website-development.png')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
                                     <i class="bi bi-plus"></i>
                                 </div>
-                                <a href="portfolio-details.html" class="details-btn">
+                                <a href="<?=base_url('our-portfolio')?>" class="details-btn">
                                     View Details
                                     <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />

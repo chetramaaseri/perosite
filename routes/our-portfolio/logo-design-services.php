@@ -21,7 +21,7 @@
                                                     <li><a href="portfolio-classic.html">Branding & Graphics</a></li>
                                                     <li><a href="portfolio-classic.html">2024</a></li>
                                                 </ul>
-                                                <h1><a href="portfolio-details.html">Strategic Web Creations.</a></h1>
+                                                <h1><a href="<?=base_url('our-portfolio')?>">Strategic Web Creations.</a></h1>
                                             </div>
                                             <div class="social-area d-lg-block d-none">
                                                 <a href="portfolio-classic.html">Visit More Portfolio
@@ -71,7 +71,7 @@
                                                     <li><a href="portfolio-classic.html">UI/UX Design</a></li>
                                                     <li><a href="portfolio-classic.html">2024</a></li>
                                                 </ul>
-                                                <h1><a href="portfolio-details.html">Innovative Digital Creations</a></h1>
+                                                <h1><a href="<?=base_url('our-portfolio')?>">Innovative Digital Creations</a></h1>
                                             </div>
                                             <div class="social-area d-lg-block d-none">
                                                 <a href="portfolio-classic.html">Visit More Portfolio
@@ -121,7 +121,7 @@
                                                     <li><a href="portfolio-classic.html">Creative Art</a></li>
                                                     <li><a href="portfolio-classic.html">2024</a></li>
                                                 </ul>
-                                                <h1><a href="portfolio-details.html">Engaging User Experience</a></h1>
+                                                <h1><a href="<?=base_url('our-portfolio')?>">Engaging User Experience</a></h1>
                                             </div>
                                             <div class="social-area d-lg-block d-none">
                                                 <a href="portfolio-classic.html">Visit More Portfolio
@@ -171,7 +171,7 @@
                                                     <li><a href="portfolio-classic.html">Development</a></li>
                                                     <li><a href="portfolio-classic.html">2024</a></li>
                                                 </ul>
-                                                <h1><a href="portfolio-details.html">Scalable Web Designs</a></h1>
+                                                <h1><a href="<?=base_url('our-portfolio')?>">Scalable Web Designs</a></h1>
                                             </div>
                                             <div class="social-area d-lg-block d-none">
                                                 <a href="portfolio-classic.html">Visit More Portfolio

@@ -97,7 +97,7 @@ unset($mobileSites[1]);
         </div>
     </div>
 </div>
-<?php $absolutePages = ['','our-portfolio/social-media-handling-services']; ?>
+<?php $absolutePages = ['','our-portfolio/social-media-handling-services','our-portfolio/logo-design-services']; ?>
 <header class="header-area style-3 <?=in_array(get_route(),$absolutePages) ? 'position-absolute' : ''?>">
     <div class="container-fluid d-flex flex-nowrap align-items-center justify-content-between">
         <div class="company-logo">
@@ -389,7 +389,7 @@ unset($mobileSites[1]);
                         <ul class="sub-menu d-lg-none">
                             <li class=""><a href="<?=base_url('our-portfolio/web-development-services')?>" style="padding-right: 10px;">Website Designs</a></li>
                             <li class=""><a href="<?=base_url('our-portfolio/social-media-handling-services')?>" style="padding-right: 10px;">Social Media Creatives</a></li>
-                            <li class=""><a href="<?=base_url('our-portfolio/logo-design-services')?>" style="padding-right: 10px;">Logo Designs</a></li>
+                            <!-- <li class=""><a href="<?=base_url('our-portfolio/logo-design-services')?>" style="padding-right: 10px;">Logo Designs</a></li> -->
                         </ul>
                         <div class="mega-menu">
                             <div class="container">
