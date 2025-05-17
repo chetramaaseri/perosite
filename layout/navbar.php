@@ -402,7 +402,7 @@ unset($mobileSites[1]);
                                                 <div class="home-version">
                                                     <ul>
                                                         <li>
-                                                            <a href="<?=base_url()?>" class="light">
+                                                            <a href="<?=base_url('our-portfolio/web-development/'.pathinfo($site, PATHINFO_FILENAME))?>" class="light">
                                                                 <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                                                                     <g>
                                                                         <path
