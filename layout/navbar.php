@@ -146,13 +146,13 @@ unset($mobileSites[1]);
                                                     </h6>
                                                 </div>
                                                 <ul>
-                                                    <li><a href="/responsive-website-design">Responsive Website Design</a></li>
-                                                    <li><a href="/custom-website-development">Custom Website Development</a></li>
-                                                    <li><a href="/ecommerce-website-development">E-Commerce Website Development</a></li>
-                                                    <li><a href="/progressive-web-app-development">Progressive Web App Development</a></li>
-                                                    <li><a href="/mobile-app-development">Mobile App Development (iOS & Android)</a></li>
-                                                    <li><a href="/admin-dashboard-development">Admin Dashboard Development</a></li>
-                                                    <li><a href="/landing-page-design">Landing Page Design for Ads</a></li>
+                                                    <li><a href="<?=base_url()?>responsive-website-design">Responsive Website Design</a></li>
+                                                    <li><a href="<?=base_url()?>custom-website-development">Custom Website Development</a></li>
+                                                    <li><a href="<?=base_url()?>ecommerce-website-development">E-Commerce Website Development</a></li>
+                                                    <li><a href="<?=base_url()?>progressive-web-app-development">Progressive Web App Development</a></li>
+                                                    <li><a href="<?=base_url()?>mobile-app-development">Mobile App Development (iOS & Android)</a></li>
+                                                    <li><a href="<?=base_url()?>admin-dashboard-development">Admin Dashboard Development</a></li>
+                                                    <li><a href="<?=base_url()?>landing-page-design">Landing Page Design for Ads</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-single-item">
@@ -166,13 +166,13 @@ unset($mobileSites[1]);
                                                     </h6>
                                                 </div>
                                                 <ul>
-                                                    <li><a href="/google-ads-ppc-management">Google Ads & PPC Management</a></li>
-                                                    <li><a href="/social-media-management">Social Media Management Services</a></li>
-                                                    <li><a href="/facebook-instagram-ads">Facebook & Instagram Ads</a></li>
-                                                    <li><a href="/professional-logo-design">Professional Logo Design</a></li>
-                                                    <li><a href="/seo-performance-ranking">SEO Performance & Ranking Services</a></li>
-                                                    <li><a href="/google-business-profile-setup">Google Business Profile Setup</a></li>
-                                                    <li><a href="/business-email-setup">Business Email Setup (Domain Email)</a></li>
+                                                    <li><a href="<?=base_url()?>google-ads-ppc-management">Google Ads & PPC Management</a></li>
+                                                    <li><a href="<?=base_url()?>social-media-management">Social Media Management Services</a></li>
+                                                    <li><a href="<?=base_url()?>facebook-instagram-ads">Facebook & Instagram Ads</a></li>
+                                                    <li><a href="<?=base_url()?>professional-logo-design">Professional Logo Design</a></li>
+                                                    <li><a href="<?=base_url()?>seo-performance-ranking">SEO Performance & Ranking Services</a></li>
+                                                    <li><a href="<?=base_url()?>google-business-profile-setup">Google Business Profile Setup</a></li>
+                                                    <li><a href="<?=base_url()?>business-email-setup">Business Email Setup (Domain Email)</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -431,7 +431,7 @@ unset($mobileSites[1]);
                     </li>
                 </ul>
                 <div class="btn-and-contact-area d-lg-none d-block">
-                    <a href="contact.html" class="primary-btn3 btn-hover">
+                    <a href="<?=base_url('contact-us')?>" class="primary-btn3 btn-hover">
                         Let’s Talk
                         <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
@@ -449,7 +449,7 @@ unset($mobileSites[1]);
                         </g>
                     </svg>
                 </div>
-                <a href="contact.html" class="primary-btn3 btn-hover d-lg-flex d-none">
+                <a href="<?=base_url('contact-us')?>" class="primary-btn3 btn-hover d-lg-flex d-none">
                     Let’s Talk
                     <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
