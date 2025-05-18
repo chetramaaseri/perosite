@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: Chetram Aaseri
+Company: PERO SITE
+Site: https://perosite.com
+Twitter: @chetramaaseri
+
+/* TECHNOLOGY */
+Built with: PHP, MySQL, Bootstrap
+
+/* THANKS */
+Made with love in India.

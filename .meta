@@ -1,0 +1,376 @@
+{
+  "/": {
+    "title": "PERO SITE - Web Development, SEO & Digital Marketing Services",
+    "description": "PERO SITE offers expert web development, SEO, digital marketing services, mobile app development, and more to help you grow your online business.",
+    "keywords": "web development, SEO, digital marketing, mobile app development, website design, ecommerce development, online services",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://perosite.com/",
+      "name": "PERO SITE",
+      "description": "Expert web development, SEO, mobile app, and digital marketing services to grow your business.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/about-us": {
+    "title": "About Us | PERO SITE",
+    "description": "Learn more about PERO SITE, our mission, vision, and the team dedicated to delivering exceptional digital solutions.",
+    "keywords": "about PERO SITE, company information, team, mission, vision",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "url": "https://perosite.com/about-us",
+      "name": "About Us",
+      "description": "Information about PERO SITE's mission, vision, and team.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/our-services": {
+    "title": "Our Services | PERO SITE",
+    "description": "Explore the range of services offered by PERO SITE, including web development, SEO, digital marketing, and more.",
+    "keywords": "services, web development, SEO, digital marketing, PERO SITE offerings",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/our-services",
+      "name": "Services Offered",
+      "description": "Detailed overview of services provided by PERO SITE.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/responsive-website-design": {
+    "title": "Responsive Website Design | PERO SITE",
+    "description": "PERO SITE specializes in creating responsive website designs that ensure optimal viewing experiences across all devices.",
+    "keywords": "responsive design, mobile-friendly websites, web design, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/responsive-website-design",
+      "name": "Responsive Website Design",
+      "description": "Service offering responsive website design solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/custom-website-development": {
+    "title": "Custom Website Development | PERO SITE",
+    "description": "Get tailor-made website development solutions from PERO SITE to meet your unique business requirements.",
+    "keywords": "custom website development, bespoke web solutions, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/custom-website-development",
+      "name": "Custom Website Development",
+      "description": "Service offering custom website development solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/ecommerce-website-development": {
+    "title": "E-commerce Website Development | PERO SITE",
+    "description": "PERO SITE provides comprehensive e-commerce website development services to help you sell online effectively.",
+    "keywords": "e-commerce development, online store, shopping cart, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/ecommerce-website-development",
+      "name": "E-commerce Website Development",
+      "description": "Service offering e-commerce website development solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/progressive-web-app-development": {
+    "title": "Progressive Web App Development | PERO SITE",
+    "description": "Develop high-performance progressive web apps with PERO SITE to enhance user engagement and accessibility.",
+    "keywords": "PWA development, progressive web apps, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/progressive-web-app-development",
+      "name": "Progressive Web App Development",
+      "description": "Service offering progressive web app development solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/mobile-app-development": {
+    "title": "Mobile App Development | PERO SITE",
+    "description": "PERO SITE offers mobile app development services to bring your business to the fingertips of your customers.",
+    "keywords": "mobile app development, iOS apps, Android apps, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/mobile-app-development",
+      "name": "Mobile App Development",
+      "description": "Service offering mobile application development solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/admin-dashboard-development": {
+    "title": "Admin Dashboard Development | PERO SITE",
+    "description": "Create intuitive and powerful admin dashboards with PERO SITE to manage your business operations efficiently.",
+    "keywords": "admin dashboard, backend interface, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/admin-dashboard-development",
+      "name": "Admin Dashboard Development",
+      "description": "Service offering admin dashboard development solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/landing-page-design": {
+    "title": "Landing Page Design | PERO SITE",
+    "description": "Design high-converting landing pages with PERO SITE to boost your marketing campaigns and lead generation.",
+    "keywords": "landing page design, conversion optimization, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/landing-page-design",
+      "name": "Landing Page Design",
+      "description": "Service offering landing page design solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/google-ads-ppc-management": {
+    "title": "Google Ads & PPC Management | PERO SITE",
+    "description": "Maximize your ROI with PERO SITE's expert Google Ads and PPC management services.",
+    "keywords": "Google Ads, PPC management, paid advertising, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/google-ads-ppc-management",
+      "name": "Google Ads & PPC Management",
+      "description": "Service offering Google Ads and PPC management solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/social-media-management": {
+    "title": "Social Media Management | PERO SITE",
+    "description": "Enhance your brand presence with PERO SITE's comprehensive social media management services.",
+    "keywords": "social media management, content strategy, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/social-media-management",
+      "name": "Social Media Management",
+      "description": "Service offering social media management solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/facebook-instagram-ads": {
+    "title": "Facebook & Instagram Ads | PERO SITE",
+    "description": "Drive targeted traffic with PERO SITE's Facebook and Instagram advertising services.",
+    "keywords": "Facebook ads, Instagram ads, social media advertising, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/facebook-instagram-ads",
+      "name": "Facebook & Instagram Ads",
+      "description": "Service offering Facebook and Instagram advertising solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/professional-logo-design": {
+    "title": "Professional Logo Design | PERO SITE",
+    "description": "Get a unique and memorable logo designed by PERO SITE to represent your brand identity.",
+    "keywords": "logo design, brand identity, graphic design, PERO SITE",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/professional-logo-design",
+      "name": "Professional Logo Design",
+      "description": "Service offering professional logo design solutions.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/seo-performance-ranking": {
+    "title": "SEO Performance & Ranking Services | PERO SITE",
+    "description": "Boost your website's visibility with PERO SITE's SEO Performance & Ranking services. Our expert team employs proven strategies to enhance your search engine rankings and drive organic traffic.",
+    "keywords": "SEO services, search engine optimization, website ranking, organic traffic, keyword research, on-page SEO, technical SEO, backlink strategy, local SEO",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/seo-performance-ranking",
+      "name": "SEO Performance & Ranking Services",
+      "description": "Professional SEO services to improve your website's search engine rankings and drive organic traffic.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/google-business-profile-setup": {
+    "title": "Google Business Profile Setup | PERO SITE",
+    "description": "Enhance your local visibility with PERO SITE's Google Business Profile Setup services. We help businesses get discovered on Google Search and Maps through optimized profiles.",
+    "keywords": "Google Business Profile, local SEO, business listing, Google Maps, local search visibility, profile optimization",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/google-business-profile-setup",
+      "name": "Google Business Profile Setup",
+      "description": "Setup and optimize your Google Business Profile to improve local search visibility.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/business-email-setup": {
+    "title": "Business Email Setup Services | PERO SITE",
+    "description": "Establish a professional communication channel with PERO SITE's Business Email Setup services. We assist in setting up secure and branded email addresses for your business.",
+    "keywords": "business email setup, professional email, domain email, email hosting, secure email, branded email",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "url": "https://perosite.com/business-email-setup",
+      "name": "Business Email Setup Services",
+      "description": "Professional setup of business email accounts with your domain for secure communication.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/contact-us": {
+    "title": "Contact Us | PERO SITE",
+    "description": "Get in touch with PERO SITE for expert web development, SEO, and digital marketing services. We're here to help your business grow online.",
+    "keywords": "contact PERO SITE, get in touch, web development inquiry, SEO services, digital marketing consultation",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "url": "https://perosite.com/contact-us",
+      "name": "Contact Us",
+      "description": "Reach out to PERO SITE for professional digital solutions to grow your business.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/our-portfolio/web-development-services": {
+    "title": "Web Development Portfolio | PERO SITE",
+    "description": "Explore PERO SITE's portfolio showcasing our expertise in responsive and custom web development projects tailored to client needs.",
+    "keywords": "web development portfolio, responsive websites, custom web projects, PERO SITE work samples",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "url": "https://perosite.com/our-portfolio/web-development-services",
+      "name": "Web Development Portfolio",
+      "description": "A showcase of PERO SITE's web development projects demonstrating our technical expertise.",
+      "creator": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/our-portfolio/social-media-handling-services": {
+    "title": "Social Media Management Portfolio | PERO SITE",
+    "description": "Discover how PERO SITE has successfully managed and enhanced clients' social media presence through strategic content and engagement.",
+    "keywords": "social media portfolio, social media management, content strategy, client social media success",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "url": "https://perosite.com/our-portfolio/social-media-handling-services",
+      "name": "Social Media Management Portfolio",
+      "description": "Examples of PERO SITE's social media management projects and strategies.",
+      "creator": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/our-portfolio": {
+    "title": "Our Portfolio | PERO SITE",
+    "description": "Browse through PERO SITE's diverse portfolio, showcasing our work in web development, digital marketing, and branding.",
+    "keywords": "PERO SITE portfolio, web development work, digital marketing projects, branding examples",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "url": "https://perosite.com/our-portfolio",
+      "name": "Our Portfolio",
+      "description": "A collection of PERO SITE's completed projects across various digital services.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  },
+  "/policy-terms-conditions": {
+    "title": "Policy, Terms & Conditions | PERO SITE",
+    "description": "Review PERO SITE's policies, terms, and conditions governing the use of our website and services.",
+    "keywords": "terms and conditions, privacy policy, user agreement, PERO SITE policies",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://perosite.com/policy-terms-conditions",
+      "name": "Policy, Terms & Conditions",
+      "description": "Detailed information on PERO SITE's terms of service and privacy policies.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PERO SITE",
+        "url": "https://perosite.com/"
+      }
+    }
+  }
+}

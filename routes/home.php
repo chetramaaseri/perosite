@@ -1,7 +1,3 @@
-<?php
-get_route();
-
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -208,7 +204,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -40px;" src="<?=base_url('public/web-sites/financial-website-development.webp')?>" alt="">
+                                <img <?=detectDeviceType() == 1 ? 'style="object-position: -40px;"' : 'style="object-position: -15px;"'?> src="<?=base_url('public/web-sites/financial-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -228,7 +224,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -70px;" src="<?=base_url('public/web-sites/travel-website-development.webp')?>" alt="">
+                                <img <?=detectDeviceType() == 1 ? 'style="object-position: -70px;"' : 'style="object-position: -30px;"'?> src="<?=base_url('public/web-sites/travel-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -248,7 +244,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img style="object-position: -80px;" src="<?=base_url('public/web-sites/donation-website-development.webp')?>" alt="">
+                                <img <?=detectDeviceType() == 1 ? 'style="object-position: -80px;"' : 'style="object-position: -35px;"'?> src="<?=base_url('public/web-sites/donation-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -268,7 +264,7 @@ get_route();
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img src="<?=base_url('public/web-sites/hotel-website-development.webp')?>" alt="">
+                                <img <?=detectDeviceType() == 1 ? '' : 'style="object-position: -75px;"'?> src="<?=base_url('public/web-sites/hotel-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -325,13 +321,13 @@ get_route();
             <div class="row gy-md-5 gy-4 mb-70">
                 <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                     <div class="service-card3 magnetic-item">
-                        <h4><a href="<?=base_url('web-development')?>">Web <br> Development</a></h4>
+                        <h4><a href="<?=base_url('responsive-website-design')?>">Web <br> Development</a></h4>
                         <ul>
                             <li>+ Business Websites</li>
                             <li>+ Portfolio Websites</li>
                             <li>+ Custom UI/UX</li>
                         </ul>
-                        <a href="<?=base_url('web-development')?>" class="primary-btn3 three btn-hover">
+                        <a href="<?=base_url('responsive-website-design')?>" class="primary-btn3 three btn-hover">
                             View Details
                             <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
@@ -367,13 +363,13 @@ get_route();
                 </div>
                 <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="500ms">
                     <div class="service-card3 magnetic-item">
-                        <h4><a href="<?=base_url('ecommerce-development')?>">E-Commerce <br>Development</a></h4>
+                        <h4><a href="<?=base_url('ecommerce-website-development')?>">E-Commerce <br>Development</a></h4>
                         <ul>
                             <li>+ Online Store Setup</li>
                             <li>+ Payment Integration</li>
                             <li>+ Inventory Management</li>
                         </ul>
-                        <a href="<?=base_url('ecommerce-development')?>" class="primary-btn3 three btn-hover">
+                        <a href="<?=base_url('ecommerce-website-development')?>" class="primary-btn3 three btn-hover">
                             View Details
                             <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
@@ -388,13 +384,13 @@ get_route();
                 </div>
                 <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="80ms" data-wow-duration="500ms">
                     <div class="service-card3 three magnetic-item">
-                        <h4><a href="<?=base_url('custom-software-development')?>">Custom Software<br>Development</a></h4>
+                        <h4><a href="<?=base_url('custom-website-development')?>">Custom Software<br>Development</a></h4>
                         <ul>
                             <li>+ Business Tools</li>
                             <li>+ ERP Systems</li>
                             <li>+ Admin Panels</li>
                         </ul>
-                        <a href="<?=base_url('custom-software-development')?>" class="primary-btn3 three btn-hover">
+                        <a href="<?=base_url('custom-website-development')?>" class="primary-btn3 three btn-hover">
                             View Details
                             <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />

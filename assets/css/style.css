@@ -27080,8 +27080,8 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-card2 .portfolio-img img {
   border-radius: 20px;
-  max-height: 370px;
-  min-height: 370px;
+  /*max-height: 370px;*/
+  /*min-height: 370px;*/
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -27089,14 +27089,14 @@ header.style-7 .primary-btn3.four svg {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .portfolio-card2 .portfolio-img img {
-    max-height: 360px;
-    min-height: 360px;
+    /*max-height: 360px;*/
+    /*min-height: 360px;*/
   }
 }
 @media (max-width: 991px) {
   .portfolio-card2 .portfolio-img img {
-    max-height: 340px;
-    min-height: 340px;
+    /*max-height: 340px;*/
+    /*min-height: 340px;*/
   }
 }
 @media (max-width: 576px) {

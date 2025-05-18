@@ -15,7 +15,7 @@ unset($webSites[1]);
         <section>
             <div class="outer">
               <div class="inner">
-                <div class="bg one" style="background: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url('<?=base_url("public/web-sites/".$site)?>');">
+                <div class="bg one" style="background: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url('<?=detectDeviceType() == 2 ? base_url("public/mobile-sites/".$site) : base_url("public/web-sites/".$site)?>');">
                     <div class="portfolio-slider-content">
                         <div class="social-area">
                             <a href="<?=base_url('contact-us')?>">Contact Us Now

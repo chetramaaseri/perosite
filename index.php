@@ -22,7 +22,6 @@ function loadEnvFiles($dir = 'config') {
     }
 }
 loadEnvFiles();
-
 // Constants
 define('BASE_URI', $_ENV['BASE_URI'] ?? ((isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST']));
 define('BASE_URL', rtrim(BASE_URI, '/') . '/');
@@ -77,7 +76,8 @@ $staticRoutes = [
     ADMIN_ROUTE . '/products/create/boxes' => ADMIN_FILES . 'clothcom/product_boxes.php',
     ADMIN_ROUTE . '/orders/online' => ADMIN_FILES . 'orders/orders_list.php',
 ];
-
+$meta;
+PeroMeta::init();
 // Static route check
 if (isset($staticRoutes[$requestUri])) {
     require_once $staticRoutes[$requestUri];

@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /secure-login/
+Disallow: /secure-login/*
+Allow: /
+
+Sitemap: https://perosite.com/sitemap.xml
+
+# Allow image indexing
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: msnbot-media
+Allow: /

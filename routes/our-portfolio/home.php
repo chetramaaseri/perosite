@@ -80,310 +80,73 @@ foreach($graphics_items as $item) {
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
                     <div class="row gy-5 mb-70">
-                        <?php $set = array_rand([1,2,3])+1; $count=0; foreach($links as $item): ?>
-                            <?php if($set == 1 && $count == 0): ?>
-                                <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
+                        <?php shuffle($links); foreach($links as $item): ?>
+                            <div class="col-sm-auto wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
+                                <div class="portfolio-card2 two magnetic-item">
+                                    <div class="portfolio-img">
+                                        <img src="<?=$item['link']?>" alt="">
+                                        <div class="details-btn-wrap">
+                                            <a href="<?=$item['portfolio']?>" class="details-btn">
+                                                View More
+                                                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
+                                                </svg>
+                                            </a>
+                                            <div class="icon">
+                                                <i class="bi bi-plus"></i>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            <?php ;elseif($set == 1 && $count == 1): ?>
-                                <div class="col-lg-7 col-md-7">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 2): ?>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 3 && $count == 0): ?>
-                                <div class="col-lg-7 col-md-6">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 3 && $count == 1): ?>
-                                <div class="col-lg-5">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endif; ?>
-                        <?php $count++; if($set == 1 && $count == 2){$count = 0; $set = array_rand([1,2,3])+1; }else if($set==2 && $count == 3){$count = 0; $set = array_rand([1,2,3])+1; }else if($set==3 && $count == 2){$count = 0; $set = array_rand([1,2,3])+1; }?>
+                            </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-graphics" role="tabpanel" aria-labelledby="pills-graphics-tab">
                     <div class="row gy-5 mb-70">
-                        <?php $set = array_rand([1,2,3])+1; $count=0; foreach($graphics as $item): ?>
-                            <?php if($set == 1 && $count == 0): ?>
-                                <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
+                        <?php shuffle($graphics); foreach($graphics as $item): ?>
+                            <div class="col-sm-auto wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
+                                <div class="portfolio-card2 two magnetic-item">
+                                    <div class="portfolio-img">
+                                        <img src="<?=$item['link']?>" alt="">
+                                        <div class="details-btn-wrap">
+                                            <a href="<?=$item['portfolio']?>" class="details-btn">
+                                                View More
+                                                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
+                                                </svg>
+                                            </a>
+                                            <div class="icon">
+                                                <i class="bi bi-plus"></i>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            <?php ;elseif($set == 1 && $count == 1): ?>
-                                <div class="col-lg-7 col-md-7">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 2): ?>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 3 && $count == 0): ?>
-                                <div class="col-lg-7 col-md-6">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 3 && $count == 1): ?>
-                                <div class="col-lg-5">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endif; ?>
-                        <?php $count++; if($set == 1 && $count == 2){$count = 0; $set = array_rand([1,2,3])+1; }else if($set==2 && $count == 3){$count = 0; $set = array_rand([1,2,3])+1; }else if($set==3 && $count == 2){$count = 0; $set = array_rand([1,2,3])+1; }?>
+                            </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-development" role="tabpanel" aria-labelledby="pills-development-tab">
                     <div class="row gy-5 mb-70">
-                        <?php $set = array_rand([1,2,3])+1; $count=0; foreach($webSites as $item): ?>
-                            <?php if($set == 1 && $count == 0): ?>
-                                <div class="col-lg-5 col-md-5">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
+                        <?php shuffle($webSites); foreach($webSites as $item): ?>
+                            <div class="col-sm-auto wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
+                                <div class="portfolio-card2 two magnetic-item">
+                                    <div class="portfolio-img">
+                                        <img src="<?=$item['link']?>" alt="">
+                                        <div class="details-btn-wrap">
+                                            <a href="<?=$item['portfolio']?>" class="details-btn">
+                                                View More
+                                                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
+                                                </svg>
+                                            </a>
+                                            <div class="icon">
+                                                <i class="bi bi-plus"></i>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            <?php ;elseif($set == 1 && $count == 1): ?>
-                                <div class="col-lg-7 col-md-7">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 2): ?>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 3 && $count == 0): ?>
-                                <div class="col-lg-7 col-md-6">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php ;elseif($set == 3 && $count == 1): ?>
-                                <div class="col-lg-5">
-                                    <div class="portfolio-card2 two magnetic-item">
-                                        <div class="portfolio-img">
-                                            <img src="<?=$item['link']?>" alt="">
-                                            <div class="details-btn-wrap">
-                                                <a href="<?=$item['portfolio']?>" class="details-btn">
-                                                    View More
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round" />
-                                                    </svg>
-                                                </a>
-                                                <div class="icon">
-                                                    <i class="bi bi-plus"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endif; ?>
-                        <?php $count++; if($set == 1 && $count == 2){$count = 0; $set = array_rand([1,2,3])+1; }else if($set==2 && $count == 3){$count = 0; $set = array_rand([1,2,3])+1; }else if($set==3 && $count == 2){$count = 0; $set = array_rand([1,2,3])+1; }?>
+                            </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
