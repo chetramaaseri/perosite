@@ -126,7 +126,7 @@
 
     <div class="about-page-feature-section">
         <div class="container">
-            <div class="row justify-content-center mb-70 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="row justify-content-center mb-70 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                 <div class="col-xl-12">
                     <div class="section-title2">
                         <div class="shape-and-title-area">
@@ -141,7 +141,7 @@
                 </div>
             </div>
             <div class="row g-4 mb-50">
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                     <div class="single-feature">
                         <h4>Web <br> Development</h4>
                         <ul>
@@ -162,7 +162,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="40ms" data-wow-duration="500ms">
                     <div class="single-feature">
                         <h4>Social Media<br> Handling</h4>
                         <ul>
@@ -183,7 +183,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="500ms">
                     <div class="single-feature">
                         <h4>SEO <br> Optimization.</h4>
                         <ul>
@@ -205,7 +205,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="row justify-content-center wow animate fadeInUp" data-wow-delay="20ms" data-wow-duration="500ms">
                 <div class="col-xl-8 col-lg-10">
                     <div class="contact-btn-area two">
                         <h6>To Make Sure to Best Service Provide Our Clients.</h6>

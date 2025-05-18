@@ -1,6 +1,6 @@
 <div class="home3-testimonial-section mb-120">
     <div class="container">
-        <div class="row g-4 mb-70 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <div class="row g-4 mb-70 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
             <div class="col-lg-9">
                 <div class="section-title three">
                     <span>Customer Feedback</span>

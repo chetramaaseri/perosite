@@ -66,7 +66,7 @@ if(is_post()){
     <div class="contact-page-top mb-80">
         <div class="container">
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInLeft" data-wow-delay="20ms" data-wow-duration="500ms">
                     <div class="row row-gap-4">
                         <div class="col-12">
                             <div class="single-contact">
@@ -118,7 +118,7 @@ if(is_post()){
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-8 col-md-6 wow animate fadeInLeft" data-wow-delay="20ms" data-wow-duration="500ms">
                     <div class="contact-form-wrap style-2">
                         <div class="section-title three text-center">
                             <h2>Let’s Build Something Great Together!</h2>

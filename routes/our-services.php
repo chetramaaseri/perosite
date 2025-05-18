@@ -84,13 +84,13 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="process-wrapper">
-                        <div class="section-title three white mb-60 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="section-title three white mb-60 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                             <span>Our Process</span>
                             <h2>How We Work.</h2>
                         </div>
                         <div class="process-card-area">
                             <div class="row gy-md-5 gy-4 justify-content-between">
-                                <div class="col-xl-5 col-md-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="col-xl-5 col-md-6 wow animate fadeInLeft" data-wow-delay="20ms" data-wow-duration="500ms">
                                     <div class="process-card2">
                                         <div class="step-no">
                                             <span>Step</span>
@@ -99,7 +99,7 @@
                                         <h4>Project <br> Discussion</h4>
                                     </div>
                                 </div>
-                                <div class="col-xl-5 col-md-6 wow animate fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div class="col-xl-5 col-md-6 wow animate fadeInRight" data-wow-delay="40ms" data-wow-duration="500ms">
                                     <div class="process-card2 two">
                                         <h4>Planning & <br> Design</h4>
                                         <div class="step-no">
@@ -108,7 +108,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-7 col-md-6 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="col-xl-7 col-md-6 wow animate fadeInUp" data-wow-delay="20ms" data-wow-duration="500ms">
                                     <div class="process-card2 three">
                                         <h4>Development & <br> Delivery</h4>
                                         <div class="step-no">
@@ -159,7 +159,7 @@
     <div class="home3-service-section pt-130 mb-130">
         <div class="container">
             <div class="row align-items-center justify-content-between mb-60">
-                <div class="col-lg-5 col-md-8 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-5 col-md-8 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                     <div class="section-title three">
                         <span>What We Do</span>
                         <h2>Services Offered.</h2>
@@ -180,7 +180,7 @@
                 </div>
             </div>
             <div class="row gy-md-5 gy-4 mb-70">
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                     <div class="service-card3 magnetic-item">
                         <h4><a href="<?=base_url('web-development')?>">Web <br> Development</a></h4>
                         <ul>
@@ -201,7 +201,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="40ms" data-wow-duration="500ms">
                     <div class="service-card3 two magnetic-item">
                         <h4><a href="<?=base_url('mobile-app-development')?>">Mobile App <br> Development</a></h4>
                         <ul>
@@ -222,7 +222,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="500ms">
                     <div class="service-card3 magnetic-item">
                         <h4><a href="<?=base_url('ecommerce-development')?>">E-Commerce <br>Development</a></h4>
                         <ul>
@@ -243,7 +243,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="80ms" data-wow-duration="500ms">
                     <div class="service-card3 three magnetic-item">
                         <h4><a href="<?=base_url('custom-software-development')?>">Custom Software<br>Development</a></h4>
                         <ul>
@@ -264,7 +264,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="500ms">
                     <div class="service-card3 magnetic-item">
                         <h4><a href="<?=base_url('seo-optimization')?>">SEO <br> Optimization.</a></h4>
                         <ul>
@@ -285,7 +285,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="40ms" data-wow-duration="500ms">
                     <div class="service-card3 four magnetic-item">
                         <h4><a href="<?=base_url('social-media-handling')?>">Social Media<br> Handling</a></h4>
                         <ul>
@@ -307,7 +307,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="row justify-content-center wow animate fadeInUp" data-wow-delay="20ms" data-wow-duration="500ms">
                 <div class="col-xl-8 col-lg-10">
                     <div class="contact-btn-area two">
                         <h6>To Make Sure to Best Service Provide Our Clients.</h6>

@@ -62,7 +62,7 @@ foreach($graphics_items as $item) {
     </div>
     <div class="portfolio-page mb-130">
         <div class="container">
-            <div class="row justify-content-center mb-70 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="row justify-content-center mb-70 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                 <div class="col-xl-8 col-lg-10 d-flex justify-content-center">
                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -82,7 +82,7 @@ foreach($graphics_items as $item) {
                     <div class="row gy-5 mb-70">
                         <?php $set = array_rand([1,2,3])+1; $count=0; foreach($links as $item): ?>
                             <?php if($set == 1 && $count == 0): ?>
-                                <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                                     <div class="portfolio-card2 two magnetic-item">
                                         <div class="portfolio-img">
                                             <img src="<?=$item['link']?>" alt="">
@@ -185,7 +185,7 @@ foreach($graphics_items as $item) {
                     <div class="row gy-5 mb-70">
                         <?php $set = array_rand([1,2,3])+1; $count=0; foreach($graphics as $item): ?>
                             <?php if($set == 1 && $count == 0): ?>
-                                <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="col-lg-5 col-md-5 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                                     <div class="portfolio-card2 two magnetic-item">
                                         <div class="portfolio-img">
                                             <img src="<?=$item['link']?>" alt="">

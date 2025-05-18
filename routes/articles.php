@@ -32,7 +32,7 @@
     <div class="news-insight-page mb-130">
         <div class="container">
             <div class="row gy-5 justify-content-between mb-70">
-                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="20ms" data-wow-duration="500ms">
                     <div class="blog-card2">
                         <div class="row align-items-center g-xl-4 g-lg-2 g-md-4 g-sm-3 g-4">
                             <div class="col-lg-6 col-md-5 col-sm-6">
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="40ms" data-wow-duration="500ms">
                     <div class="blog-card2">
                         <div class="row align-items-center g-xl-4 g-lg-2 g-md-4 g-sm-3 g-4">
                             <div class="col-lg-6 col-md-5 col-sm-6">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="500ms">
                     <div class="blog-card2">
                         <div class="row align-items-center g-xl-4 g-lg-2 g-md-4 g-sm-3 g-4">
                             <div class="col-lg-6 col-md-5 col-sm-6">
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="80ms" data-wow-duration="500ms">
                     <div class="blog-card2">
                         <div class="row align-items-center g-xl-4 g-lg-2 g-md-4 g-sm-3 g-4">
                             <div class="col-lg-6 col-md-5 col-sm-6">
@@ -160,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="500ms">
                     <div class="blog-card2">
                         <div class="row align-items-center g-xl-4 g-lg-2 g-md-4 g-sm-3 g-4">
                             <div class="col-lg-6 col-md-5 col-sm-6">
@@ -192,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="40ms" data-wow-duration="500ms">
                     <div class="blog-card2">
                         <div class="row align-items-center g-xl-4 g-lg-2 g-md-4 g-sm-3 g-4">
                             <div class="col-lg-6 col-md-5 col-sm-6">
@@ -225,7 +225,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pagination-area wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="pagination-area wow animate fadeInUp" data-wow-delay="20ms" data-wow-duration="500ms">
                 <div class="paginations-button">
                     <a href="#">
                         <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
