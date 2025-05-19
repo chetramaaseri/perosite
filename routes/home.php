@@ -68,7 +68,9 @@
             </div>
             <div class="partner-wrap">
                 <?php 
-                $logos = scandir('public/clients'); 
+                $logos = scandir('public/clients');
+                unset($logos[0]);
+                unset($logos[1]);
                 ?>
                 <div class="marquee light">
                     <div class="marquee__group">
