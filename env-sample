@@ -8,3 +8,42 @@ DB_PORT=3306
 DB_DATABASE=pero
 DB_USERNAME=root
 DB_PASSWORD=root
+
+
+BASE_URI=https://perosite.com/
+ADMIN_ROUTE=/secure-login
+TIME_ZONE=Asia/Kolkata
+
+# Database Settings
+DB_DRIVER=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=u468848255_perosite
+DB_USERNAME=u468848255_perosite
+DB_PASSWORD='2@SqlIY|8'
+
+# Site Variables
+CONTACTNO1="+91 9988771817"
+CONTACTNO2="+91 9988771871"
+EMAIL=info@perosite.com
+SOCIAL_FACEBOOK=https://www.facebook.com/perosite/
+SOCIAL_INSTAGRAM=https://www.facebook.com/perosite/
+SOCIAL_LINKEDIN=https://www.facebook.com/perosite/
+GOOGLE_MAP=https://maps.app.goo.gl/cRq33jtBgJrLHHuG8
+
+# Pero Settings
+PERO_ENV=development
+PERO_DEBUG=true
+PERO_CACHE=false
+PERO_ATTRIBUTE=Pero
+PERO_ATTRIBUTE_URL=https://perosite.com
+PERO_CLIENT_NAME="Pero Admin Solution"
+PERO_CLIENT_LOGO="https://www.meliniindia.com/cdn/shop/files/melini_Logo-e1695377804569-290x73-1.webp?v=1726398123&width=320"
+PERO_AUTH_MAX_ATTEMPTS=5
+
+PERO_G_CLIENT_ID=1097019561604-iec12v7m7uo336mend96ssh4f0t5lr24.apps.googleusercontent.com
+PERO_G_CLIENT_SECRET=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
+
+
+# Features
+PERO_BLOG=FALSE

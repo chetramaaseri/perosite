@@ -1,0 +1,302 @@
+{
+  "/": {
+    "title": "PERO SITE - Web Development, SEO & Digital Marketing Services",
+    "description": "PERO SITE offers expert web development, SEO, digital marketing services, mobile app development, and more to help you grow your online business.",
+    "keywords": "web development, SEO, digital marketing, mobile app development, website design, ecommerce development, online services",
+    "og_title": "PERO SITE - Your Partner in Digital Growth",
+    "og_description": "PERO SITE is a leading web development and digital marketing agency, providing tailored solutions to enhance your online presence.",
+    "schema": {
+      "@type": "Organization",
+      "name": "PERO SITE - Web Design & Development Services",
+      "description": "Expert web development, SEO, mobile app, and digital marketing services to grow your business."
+    }
+  },
+  "/about-us": {
+    "title": "About Us | PERO SITE",
+    "description": "Learn more about PERO SITE, our mission, vision, and the team dedicated to delivering exceptional digital solutions.",
+    "keywords": "about PERO SITE, company information, team, mission, vision",
+    "og_title": "About PERO SITE - Your Digital Partner",
+    "og_description": "Discover the story behind PERO SITE, our values, and how we can help you achieve your digital goals.",
+    "schema": {
+      "@type": "AboutPage",
+      "name": "About Us",
+      "description": "Information about PERO SITE's mission and vision."
+    }
+  },
+  "/our-services": {
+    "title": "Our Services | PERO SITE",
+    "description": "Explore the range of services offered by PERO SITE, including web development, SEO, digital marketing, and more.",
+    "keywords": "services, website designing, web development, SEO, digital marketing",
+    "og_title": "Our Services - PERO SITE",
+    "og_description": "PERO SITE offers a variety of services to help you grow your online presence, including web development, SEO, and digital marketing.",
+    "schema": {
+      "@type": "Services",
+      "name": "Services Offered",
+      "description": "Detailed overview of services provided by PERO SITE."
+    }
+  },
+  "/responsive-website-design": {
+    "title": "Responsive Website Design | PERO SITE",
+    "description": "PERO SITE specializes in creating responsive website designs that ensure optimal viewing experiences across all devices.",
+    "keywords": "responsive design, mobile-friendly websites, web design, PERO SITE",
+    "og_title": "Responsive Website Design Services | PERO SITE",
+    "og_description": "Get a responsive website design from PERO SITE that adapts to all devices, ensuring a seamless user experience.",
+    "schema": {
+      "@type": "Service",
+      "name": "Responsive Website Design",
+      "description": "Service offering responsive website design solutions."
+    }
+  },
+  "/custom-website-development": {
+    "title": "Custom Website Development | PERO SITE",
+    "description": "Get tailor-made website development solutions from PERO SITE to meet your unique business requirements.",
+    "keywords": "custom website development, bespoke web solutions, PERO SITE",
+    "og_title": "Custom Website Development Services | PERO SITE",
+    "og_description": "PERO SITE offers custom website development services to create unique and functional websites tailored to your business needs.",
+    "schema": {
+      "@type": "Service",
+      "name": "Custom Website Development",
+      "description": "Service offering custom website development solutions."
+    }
+  },
+  "/ecommerce-website-development": {
+    "title": "E-commerce Website Development | PERO SITE",
+    "description": "PERO SITE provides comprehensive e-commerce website development services to help you sell online effectively.",
+    "keywords": "e-commerce development, online store, shopping cart, PERO SITE",
+    "og_title": "E-commerce Website Development Services | PERO SITE",
+    "og_description": "Build your online store with PERO SITE's e-commerce website development services. We create user-friendly and secure shopping experiences.",
+    "schema": {
+      "@type": "Service",
+      "name": "E-commerce Website Development",
+      "description": "Service offering e-commerce website development solutions."
+    }
+  },
+  "/progressive-web-app-development": {
+    "title": "Progressive Web App Development | PERO SITE",
+    "description": "Develop high-performance progressive web apps with PERO SITE to enhance user engagement and accessibility.",
+    "keywords": "PWA development, progressive web apps, PERO SITE",
+    "og_title": "Progressive Web App Development Services | PERO SITE",
+    "og_description": "PERO SITE specializes in progressive web app development, creating fast and reliable web applications that work seamlessly on any device.",
+    "schema": {
+      "@type": "Service",
+      "name": "Progressive Web App Development",
+      "description": "Service offering progressive web app development solutions."
+    }
+  },
+  "/mobile-app-development": {
+    "title": "Mobile App Development | PERO SITE",
+    "description": "PERO SITE offers mobile app development services to bring your business to the fingertips of your customers.",
+    "keywords": "mobile app development, iOS apps, Android apps, PERO SITE",
+    "og_title": "Mobile App Development Services | PERO SITE",
+    "og_description": "Create engaging mobile applications with PERO SITE. We develop apps for both iOS and Android platforms to enhance your business reach.",
+    "schema": {
+      "@type": "Service",
+      "name": "Mobile App Development",
+      "description": "Service offering mobile application development solutions."
+    }
+  },
+  "/admin-dashboard-development": {
+    "title": "Admin Dashboard Development | PERO SITE",
+    "description": "Create intuitive and powerful admin dashboards with PERO SITE to manage your business operations efficiently.",
+    "keywords": "admin dashboard, backend interface, PERO SITE",
+    "og_title": "Admin Dashboard Development Services | PERO SITE",
+    "og_description": "PERO SITE specializes in admin dashboard development, providing user-friendly interfaces for effective management of your business data.",
+    "schema": {
+      "@type": "Service",
+      "name": "Admin Dashboard Development",
+      "description": "Service offering admin dashboard development solutions."
+    }
+  },
+  "/landing-page-design": {
+    "title": "Landing Page Design | PERO SITE",
+    "description": "Design high-converting landing pages with PERO SITE to boost your marketing campaigns and lead generation.",
+    "keywords": "landing page design, conversion optimization, PERO SITE",
+    "og_title": "Landing Page Design Services | PERO SITE",
+    "og_description": "PERO SITE offers landing page design services to create visually appealing and effective landing pages for your marketing campaigns.",
+    "schema": {
+      "@type": "Service",
+      "name": "Landing Page Design",
+      "description": "Service offering landing page design solutions."
+    }
+  },
+  "/google-ads-ppc-management": {
+    "title": "Google Ads & PPC Management | PERO SITE",
+    "description": "Maximize your ROI with PERO SITE's expert Google Ads and PPC management services.",
+    "keywords": "Google Ads, PPC management, paid advertising, PERO SITE",
+    "og_title": "Google Ads & PPC Management Services | PERO SITE",
+    "og_description": "PERO SITE provides Google Ads and PPC management services to help you reach your target audience effectively and efficiently.",
+    "schema": {
+      "@type": "Service",
+      "name": "Google Ads & PPC Management",
+      "description": "Service offering Google Ads and PPC management solutions."
+    }
+  },
+  "/social-media-management": {
+    "title": "Social Media Management | PERO SITE",
+    "description": "Enhance your brand presence with PERO SITE's comprehensive social media management services.",
+    "keywords": "social media management, content strategy, PERO SITE",
+    "og_title": "Social Media Management Services | PERO SITE",
+    "og_description": "PERO SITE offers social media management services to help you build and maintain a strong online presence across various platforms.",
+    "schema": {
+      "@type": "Service",
+      "name": "Social Media Management",
+      "description": "Service offering social media management solutions."
+    }
+  },
+  "/facebook-instagram-ads": {
+    "title": "Facebook & Instagram Ads | PERO SITE",
+    "description": "Drive targeted traffic with PERO SITE's Facebook and Instagram advertising services.",
+    "keywords": "Facebook ads, Instagram ads, social media advertising, PERO SITE",
+    "og_title": "Facebook & Instagram Ads Services | PERO SITE",
+    "og_description": "PERO SITE specializes in Facebook and Instagram ads to help you reach your target audience effectively and increase conversions.",
+    "schema": {
+      "@type": "Service",
+      "name": "Facebook & Instagram Ads",
+      "description": "Service offering Facebook and Instagram advertising solutions."
+    }
+  },
+  "/professional-logo-design": {
+    "title": "Professional Logo Design | PERO SITE",
+    "description": "Get a unique and memorable logo designed by PERO SITE to represent your brand identity.",
+    "keywords": "logo design, brand identity, graphic design, PERO SITE",
+    "og_title": "Professional Logo Design Services | PERO SITE",
+    "og_description": "PERO SITE offers professional logo design services to create a unique and impactful brand identity for your business.",
+    "schema": {
+      "@type": "Service",
+      "name": "Professional Logo Design",
+      "description": "Service offering professional logo design solutions."
+    }
+  },
+  "/seo-performance-ranking": {
+    "title": "SEO Performance & Ranking Services | PERO SITE",
+    "description": "Boost your website's visibility with PERO SITE's SEO Performance & Ranking services. Our expert team employs proven strategies to enhance your search engine rankings and drive organic traffic.",
+    "keywords": "SEO services, search engine optimization, website ranking, organic traffic, keyword research, on-page SEO, technical SEO, backlink strategy, local SEO",
+    "og_title": "SEO Performance & Ranking Services | PERO SITE",
+    "og_description": "PERO SITE's SEO Performance & Ranking services help businesses improve their online visibility and drive organic traffic through effective search engine optimization strategies.",
+    "schema": {
+      "@type": "Service",
+      "name": "SEO Performance & Ranking Services",
+      "description": "Professional SEO services to improve your website's search engine rankings and drive organic traffic."
+    }
+  },
+  "/google-business-profile-setup": {
+    "title": "Google Business Profile Setup | PERO SITE",
+    "description": "Enhance your local visibility with PERO SITE's Google Business Profile Setup services. We help businesses get discovered on Google Search and Maps through optimized profiles.",
+    "keywords": "Google Business Profile, local SEO, business listing, Google Maps, local search visibility, profile optimization",
+    "og_title": "Google Business Profile Setup Services | PERO SITE",
+    "og_description": "PERO SITE offers Google Business Profile Setup services to help businesses improve their local search visibility and attract more customers through optimized profiles.",
+    "schema": {
+      "@type": "Service",
+      "name": "Google Business Profile Setup",
+      "description": "Setup and optimize your Google Business Profile to improve local search visibility."
+    }
+  },
+  "/business-email-setup": {
+    "title": "Business Email Setup Services | PERO SITE",
+    "description": "Establish a professional communication channel with PERO SITE's Business Email Setup services. We assist in setting up secure and branded email addresses for your business.",
+    "keywords": "business email setup, professional email, domain email, email hosting, secure email, branded email",
+    "og_title": "Business Email Setup Services | PERO SITE",
+    "og_description": "PERO SITE provides Business Email Setup services to help businesses establish secure and branded email addresses for professional communication.",
+    "schema": {
+      "@type": "Service",
+      "name": "Business Email Setup Services",
+      "description": "Professional setup of business email accounts with your domain for secure communication."
+    }
+  },
+  "/website-developer-in-ludhiana": {
+    "title": "Top Website Developer in Ludhiana - Custom Web Design & Development",
+    "description": "Looking for a reliable website developer in Ludhiana? PERO SITE offers fast, mobile-friendly, and SEO-optimized web solutions for local businesses.",
+    "keywords": "website developer Ludhiana, web development Ludhiana, PHP developer Ludhiana, responsive website Ludhiana",
+    "og_title": "Website Developer in Ludhiana | PERO SITE",
+    "og_description": "PERO SITE is a leading website developer in Ludhiana, specializing in custom web design and development services tailored to your business needs.",
+    "schema": {
+      "@type": "LocalBusiness",
+      "name": "Pero Site - Website Developer in Ludhiana",
+      "description": "PERO SITE is a top website developer in Ludhiana, providing custom web design and development services to help businesses succeed online."
+    }
+  },
+  "/affordable-website-developer-ludhiana": {
+    "title": "Affordable Website Developer in Ludhiana | PERO SITE",
+    "description": "Get affordable website development in Ludhiana for small businesses. Fast, mobile-friendly & SEO-ready websites at the best price.",
+    "keywords": "affordable website developer Ludhiana, low cost web design Ludhiana, website design Ludhiana, cheap website development Punjab",
+    "og_title": "Affordable Website Developer in Ludhiana | PERO SITE",
+    "og_description": "PERO SITE offers affordable website development services in Ludhiana, specializing in low-cost web design for small businesses and startups.",
+    "schema": {
+      "@type": "LocalBusiness",
+      "name": "Affordable Website Developer in Ludhiana",
+      "description": "We offer low-cost website development services in Ludhiana for small businesses, startups, and professionals. SEO-ready and mobile-optimized web design."
+    }
+  },
+  "/website-development-company-in-ludhiana": {
+    "title": "Best Website Development Company in Ludhiana | Professional Web Design Services",
+    "description": "Looking for a trusted website development company in Ludhiana? PeroSite offers SEO-optimized, mobile-friendly web design for local businesses at affordable prices.",
+    "keywords": "website development Ludhiana, web design Ludhiana, website developer in Ludhiana, Ludhiana web development company, professional website design, SEO website Ludhiana, web agency Ludhiana",
+    "og_title": "Website Development Company in Ludhiana - PeroSite",
+    "og_description": "Get a professional website for your Ludhiana-based business. SEO-optimized, mobile-friendly, and customized to convert.",
+    "schema": {
+      "@type": "LocalBusiness",
+      "name": "Best Website Development Company in Ludhiana",
+      "description": "We offer low-cost website development services in Ludhiana for small businesses, startups, and professionals. SEO-ready and mobile-optimized web design."
+    }
+  },
+  "/contact-us": {
+    "title": "Contact Us | PERO SITE",
+    "description": "Get in touch with PERO SITE for expert web development, SEO, and digital marketing services. We're here to help your business grow online.",
+    "keywords": "contact PERO SITE, get in touch, web development inquiry, SEO services, digital marketing consultation",
+    "og_title": "Contact PERO SITE - Your Digital Partner",
+    "og_description": "Reach out to PERO SITE for inquiries about our web development, SEO, and digital marketing services. We're here to assist you.",
+    "schema": {
+      "@type": "ContactPage",
+      "name": "Contact Us",
+      "description": "Reach out to PERO SITE for professional digital solutions to grow your business."
+    }
+  },
+  "/our-portfolio/web-development-services": {
+    "title": "Web Development Portfolio | PERO SITE",
+    "description": "Explore PERO SITE's portfolio showcasing our expertise in responsive and custom web development projects tailored to client needs.",
+    "keywords": "web development portfolio, responsive websites, custom web projects, PERO SITE work samples",
+    "og_title": "Web Development Portfolio | PERO SITE",
+    "og_description": "Discover PERO SITE's web development portfolio, featuring a range of projects that highlight our skills in creating responsive and custom websites.",
+    "schema": {
+      "@type": "CreativeWork",
+      "name": "Web Development Portfolio",
+      "description": "A showcase of PERO SITE's web development projects demonstrating our technical expertise."
+    }
+  },
+  "/our-portfolio/social-media-handling-services": {
+    "title": "Social Media Management Portfolio | PERO SITE",
+    "description": "Discover how PERO SITE has successfully managed and enhanced clients' social media presence through strategic content and engagement.",
+    "keywords": "social media portfolio, social media management, content strategy, client social media success",
+    "og_title": "Social Media Management Portfolio | PERO SITE",
+    "og_description": "Explore PERO SITE's social media management portfolio, showcasing our expertise in creating engaging and effective social media strategies.",
+    "schema": {
+      "@type": "CreativeWork",
+      "name": "Social Media Management Portfolio",
+      "description": "Examples of PERO SITE's social media management projects and strategies."
+    }
+  },
+  "/our-portfolio": {
+    "title": "Our Portfolio | PERO SITE",
+    "description": "Browse through PERO SITE's diverse portfolio, showcasing our work in web development, digital marketing, and branding.",
+    "keywords": "PERO SITE portfolio, web development work, digital marketing projects, branding examples",
+    "og_title": "Our Portfolio - PERO SITE",
+    "og_description": "Explore PERO SITE's portfolio to see our diverse range of projects in web development, digital marketing, and branding.",
+    "schema": {
+      "@type": "CollectionPage",
+      "name": "Our Portfolio",
+      "description": "A collection of PERO SITE's completed projects across various digital services."
+    }
+  },
+  "/policy-terms-conditions": {
+    "title": "Policy, Terms & Conditions | PERO SITE",
+    "description": "Review PERO SITE's policies, terms, and conditions governing the use of our website and services.",
+    "keywords": "terms and conditions, privacy policy, user agreement, PERO SITE policies",
+    "og_title": "Policy, Terms & Conditions - PERO SITE",
+    "og_description": "Read PERO SITE's terms and conditions, privacy policy, and user agreement to understand your rights and responsibilities.",
+    "schema": {
+      "@type": "WebPage",
+      "name": "Policy, Terms & Conditions",
+      "description": "Detailed information on PERO SITE's terms of service and privacy policies."
+    }
+  }
+}

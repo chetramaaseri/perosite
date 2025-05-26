@@ -1,56 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<?php require_once 'layout/head.php' ?>
+    <?php require_once 'layout/head.php' ?>
 </head>
-<body id="#top">
+<body class="tt-magic-cursor digital-agency">
     <?php require_once 'layout/navbar.php' ?>
-
-    <!-- Page Header Start -->
-	<div class="page-header parallaxie">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-12">
-					<!-- Page Header Box Start -->
-					<div class="page-header-box">
-						<h1 class="wow fadeInUp" data-cursor="-opaque">Page not found</h1>
-						<nav class="wow fadeInUp">
-                            <ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="index-2.html">home</a></li>
-								<li class="breadcrumb-item active" aria-current="page">404 error page</li>
-							</ol>
-						</nav>
-					</div>
-					<!-- Page Header Box End -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Page Header End -->
-
-    <!-- error section start -->
-    <div class="error-page">
+    <div class="breadcrumb-section mb-130">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="error-page-image wow fadeInUp">
-                        <img src="images/404-error-img.png" alt="">
-                    </div>
-                    <div class="error-page-content">
-                        <div class="section-title">
-                            <h2 class="wow fadeInUp" data-cursor="-opaque">Oops! <span>Page not found</span></h2>
-                        </div>
-                        <div class="error-page-content-body">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Sorry, We can't find the page you're looking.</p>
-                            <a class="btn-default wow fadeInUp" data-wow-delay="0.5s" href="index-2.html"><span>back to home</span></a>
-                        </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="banner-content">
+                        <h1>404<br> Page Not Found</h1>
+                        <ul class="breadcrumb-list">
+                            <li><a href="<?=base_url()?>">Home</a></li>
+                            <li>
+                                <svg width="25" height="6" viewBox="0 0 25 6" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM20 3.5L25 5.88675V0.113249L20 2.5V3.5ZM4.5 3.5H20.5V2.5H4.5V3.5Z"/>
+                                </svg>
+                                404
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- error section end -->
-     
     <?php require_once 'layout/footer.php' ?>
     <?php require_once 'layout/scripts.php' ?>
 </body>
