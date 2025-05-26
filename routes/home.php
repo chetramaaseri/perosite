@@ -206,7 +206,7 @@
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img <?=detectDeviceType() == 1 ? 'style="object-position: -40px;"' : 'style="object-position: -15px;"'?> src="<?=base_url('public/web-sites/financial-website-development.webp')?>" alt="">
+                                <img <?=get_device_type() == 'desktop' ? 'style="object-position: -40px;"' : 'style="object-position: -15px;"'?> src="<?=base_url('public/web-sites/financial-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -226,7 +226,7 @@
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img <?=detectDeviceType() == 1 ? 'style="object-position: -70px;"' : 'style="object-position: -30px;"'?> src="<?=base_url('public/web-sites/travel-website-development.webp')?>" alt="">
+                                <img <?=get_device_type() == 'desktop' ? 'style="object-position: -70px;"' : 'style="object-position: -30px;"'?> src="<?=base_url('public/web-sites/travel-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -246,7 +246,7 @@
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img <?=detectDeviceType() == 1 ? 'style="object-position: -80px;"' : 'style="object-position: -35px;"'?> src="<?=base_url('public/web-sites/donation-website-development.webp')?>" alt="">
+                                <img <?=get_device_type() == 'desktop' ? 'style="object-position: -80px;"' : 'style="object-position: -35px;"'?> src="<?=base_url('public/web-sites/donation-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
@@ -266,7 +266,7 @@
                     <div class="portfolio-card magnetic-item">
                         <div class="portfolio-img-wrap">
                             <div class="portfolio-img">
-                                <img <?=detectDeviceType() == 1 ? '' : 'style="object-position: -75px;"'?> src="<?=base_url('public/web-sites/hotel-website-development.webp')?>" alt="">
+                                <img <?=get_device_type() == 'desktop' ? '' : 'style="object-position: -75px;"'?> src="<?=base_url('public/web-sites/hotel-website-development.webp')?>" alt="">
                             </div>
                             <div class="details-btn-wrap">
                                 <div class="icon">
