@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Landing Page Design</h2>
                         <span class="line-break"></span>
                         <p>At Perosite, we specialize in crafting high-converting, visually engaging landing pages that deliver results. Whether you're running an ad campaign, launching a product, or promoting a special offer, our landing pages are designed to capture attention, drive conversions, and generate leads. We understand that every business is unique, and we tailor each landing page to align with your specific goals, audience, and branding.</p>

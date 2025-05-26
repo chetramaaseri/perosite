@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Google Ads & PPC Management</h2>
                         <span class="line-break"></span>
                         <p>Maximize your business potential with our expert Google Ads and PPC Management services. We specialize in running high-converting campaigns that target the right audience to boost your online presence and sales. Whether you're a small business or an established company, we optimize every ad dollar to ensure maximum return on investment (ROI).</p>

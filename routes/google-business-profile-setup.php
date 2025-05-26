@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Google Business Profile Setup</h2>
                         <span class="line-break"></span>
                         <p>Your Google Business Profile is an essential tool for local search visibility. It helps your business get discovered by potential customers who are actively searching for services or products in your area. At Perosite, we specialize in setting up and optimizing Google Business Profiles to ensure your business appears in Google Search and Google Maps, making it easier for customers to find and contact you.</p>

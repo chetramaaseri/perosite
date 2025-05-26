@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Responsive Website Design</h2>
                         <span class="line-break"></span>
                         <p>Your website is the digital face of your business. With the increasing use of mobile devices, having a responsive website is critical for engaging your audience. At Perosite, we specialize in designing websites that adapt seamlessly to all screen sizes, ensuring a smooth user experience across desktops, tablets, and smartphones.</p>

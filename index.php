@@ -42,8 +42,8 @@ function setupDatabase() {
         'database' => $_ENV['DB_DATABASE'],
         'username' => $_ENV['DB_USERNAME'],
         'password' => $_ENV['DB_PASSWORD'],
-        'charset' => 'utf8',
-        'collation' => 'utf8_unicode_ci',
+        'charset'   => 'utf8mb4',
+        'collation' => 'utf8mb4_unicode_ci',
         'prefix' => '',
     ]);
     $db->setAsGlobal();
@@ -67,8 +67,10 @@ $staticRoutes = [
     ADMIN_ROUTE . '/auth/google-auth' => ADMIN_FILES . 'auth/google.php',
     ADMIN_ROUTE . '/access-denied' => ADMIN_FILES . 'auth/access_denied.php',
     ADMIN_ROUTE . '/auth/logout' => ADMIN_FILES . 'auth/logout.php',
-    ADMIN_ROUTE => ADMIN_FILES . 'clothcom/product_list.php',
-    ADMIN_ROUTE . '/dashboard' => ADMIN_FILES . 'clothcom/product_list.php',
+    ADMIN_ROUTE => ADMIN_FILES . 'blogs/posts_list.php',
+    ADMIN_ROUTE . '/dashboard' => ADMIN_FILES . 'blogs/posts_list.php',
+    ADMIN_ROUTE . '/blogs/list' => ADMIN_FILES . 'blogs/posts_list.php',
+    ADMIN_ROUTE . '/blogs/create' => ADMIN_FILES . 'blogs/posts_add.php',
     ADMIN_ROUTE . '/products' => ADMIN_FILES . 'clothcom/product_list.php',
     ADMIN_ROUTE . '/products/list' => ADMIN_FILES . 'clothcom/product_list.php',
     ADMIN_ROUTE . '/products/create' => ADMIN_FILES . 'clothcom/product_add.php',

@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Mobile App Development</h2>
                         <span class="line-break"></span>
                         <p>At Perosite, we offer mobile app development services that cater to businesses looking to provide their users with a seamless, engaging, and high-performance mobile experience. Whether you need a native mobile app for iOS or Android, or a cross-platform app to reach a broader audience, our team is here to help turn your ideas into successful mobile applications.</p>

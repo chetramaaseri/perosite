@@ -122,3 +122,11 @@
         </div>
     </div>
 </footer>
+<!-- WhatsApp Fixed CTA Button -->
+<a href="https://wa.me/919988771817?text=Hi%20PERO%20SITE%2C%20I%27m%20interested%20in%20your%20services"
+   class="btn btn-success shadow-lg rounded-pill d-flex align-items-center gap-2"
+   style="position: fixed; bottom: 20px; left: 20px; z-index: 9999; padding: 10px 16px;"
+   target="_blank" rel="noopener noreferrer">
+   <img src="https://img.icons8.com/color/24/000000/whatsapp.png" alt="WhatsApp Icon" />
+   <span>Chat with Us</span>
+</a>

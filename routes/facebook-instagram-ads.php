@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Facebook & Instagram Ads</h2>
                         <span class="line-break"></span>
                         <p>Facebook and Instagram Ads are powerful marketing tools that allow businesses to reach their target audience with precision and deliver highly engaging content. At Perosite, we specialize in creating tailored ad campaigns that maximize your ad spend and drive real results. Whether you’re looking to build brand awareness, generate leads, or drive conversions, our Facebook and Instagram Ads service is designed to deliver exceptional ROI.</p>

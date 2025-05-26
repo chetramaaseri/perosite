@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Admin Dashboard Development</h2>
                         <span class="line-break"></span>
                         <p>At Perosite, we specialize in creating custom admin dashboards that provide businesses with a powerful tool for managing operations, monitoring key metrics, and improving decision-making processes. Whether you need an admin panel to manage users, data analytics, or workflow automation, we tailor the dashboard to fit your specific business needs.</p>

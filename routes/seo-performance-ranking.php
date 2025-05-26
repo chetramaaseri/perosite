@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of SEO Performance & Ranking</h2>
                         <span class="line-break"></span>
                         <p>At Perosite, we offer SEO Performance & Ranking services that help your website achieve higher visibility on search engines like Google, Bing, and Yahoo. Our goal is to improve your website’s search engine ranking and performance, driving more organic traffic to your site and increasing your chances of converting visitors into customers. We leverage proven SEO strategies, in-depth keyword research, and advanced analytics to deliver sustainable results that grow your online presence.</p>

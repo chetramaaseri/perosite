@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Business Email Setup</h2>
                         <span class="line-break"></span>
                         <p>Having a professional business email is essential for any organization. It provides credibility, ensures effective communication, and is an important part of your brand's identity. At Perosite, we offer comprehensive business email setup services, helping you establish a secure, reliable, and professional email system for your team and clients.</p>

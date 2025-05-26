@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Ecommerce Website Development</h2>
                         <span class="line-break"></span>
                         <p>At Perosite, we provide customized ecommerce website development services that empower businesses to grow and thrive in the digital marketplace. We create secure, scalable, and visually appealing ecommerce websites tailored to meet your unique business needs. Whether you’re starting a new online store or looking to revamp an existing one, we are here to help you build a powerful online presence.</p>

@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Professional Logo Design</h2>
                         <span class="line-break"></span>
                         <p>Your logo is the face of your brand, and it plays a vital role in building a lasting first impression. At Perosite, we offer professional logo design services that reflect your brand's identity and communicate your values to your target audience. Our goal is to create a unique, memorable, and versatile logo that sets you apart from the competition and stands the test of time.</p>

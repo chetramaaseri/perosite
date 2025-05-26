@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Social Media Management</h2>
                         <span class="line-break"></span>
                         <p>In today’s digital world, social media is a powerful tool that can help you build brand awareness, engage with your audience, and drive conversions. At Perosite, we provide comprehensive social media management services to help businesses thrive online. We handle everything from content creation and scheduling to community management and performance analysis, ensuring that your social media channels align with your business goals.</p>

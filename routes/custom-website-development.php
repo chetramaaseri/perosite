@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Custom Website Development</h2>
                         <span class="line-break"></span>
                         <p>At Perosite, we specialize in building custom websites tailored to your business needs. Our custom website development services ensure that you get a fully functional and unique website that is designed to provide a seamless user experience and help you achieve your business goals. Whether you need an e-commerce platform, a business website, or a content-rich site, we deliver custom solutions that stand out in the digital landscape.</p>

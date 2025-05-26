@@ -33,7 +33,7 @@
         <div class="container">
             <div class="details-content-wrap">
                 <div class="row gy-4 justify-content-between mb-40">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-lg-6">
                         <h2>Overview of Progressive Web App (PWA) Development</h2>
                         <span class="line-break"></span>
                         <p>At Perosite, we offer progressive web app (PWA) development services that provide users with a seamless and fast experience across all devices. A PWA combines the best of both web and mobile applications to deliver a superior, engaging user experience. PWAs are lightweight, fast-loading, and work even in low-network conditions, making them perfect for businesses looking to create dynamic, responsive apps without the need for traditional mobile development.</p>
