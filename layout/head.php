@@ -23,7 +23,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="keywords"
     content="<?=PeroMeta::get('keywords','web development, SEO, digital marketing, mobile app development, website design, ecommerce development, online services')?>">
 <meta name="author" content="PERO SITE">
-<!-- <link rel="manifest" href="<?=base_url()?>manifest.json"> -->
+<!--<link rel="manifest" href="<?=base_url()?>manifest.json">-->
 <link type="text/plain" rel="author" href="<?=base_url()?>humans.txt" />
 <link rel="canonical" href="<?=get_url()?>">
 <meta property="og:locale" content="en_IN">

@@ -60,23 +60,40 @@ if ($scriptName && $scriptName !== '/') {
 }
 $requestUri = $requestUri ?: '/';
 
-// Static route map (only for hardcoded routes)
-$staticRoutes = [
+$staticRoutes = [];
+if (is_module_active('blog')) {
+    $staticRoutes += [
+        ADMIN_ROUTE => ADMIN_FILES . 'blogs/posts_list.php',
+        ADMIN_ROUTE . '/dashboard' => ADMIN_FILES . 'blogs/posts_list.php',
+        ADMIN_ROUTE . '/blogs/list' => ADMIN_FILES . 'blogs/posts_list.php',
+        ADMIN_ROUTE . '/blogs/create' => ADMIN_FILES . 'blogs/posts_add.php',
+        ADMIN_ROUTE . '/blogs/edit' => ADMIN_FILES . 'blogs/posts_edit.php',
+    ];
+}
+if (is_module_active('ecommerce')) {
+    $staticRoutes += [
+        ADMIN_ROUTE . '/dashboard' => ADMIN_FILES . 'clothcom/product_list.php',
+        ADMIN_ROUTE . '/products' => ADMIN_FILES . 'clothcom/product_list.php',
+        ADMIN_ROUTE . '/products/list' => ADMIN_FILES . 'clothcom/product_list.php',
+        ADMIN_ROUTE . '/products/create' => ADMIN_FILES . 'clothcom/product_add.php',
+        ADMIN_ROUTE . '/products/edit/variants' => ADMIN_FILES . 'clothcom/product_variants.php',
+        ADMIN_ROUTE . '/products/create/boxes' => ADMIN_FILES . 'clothcom/product_boxes.php',
+    ];
+}
+if (is_module_active('orders')) {
+    $staticRoutes += [
+        ADMIN_ROUTE . '/dashboard' => ADMIN_FILES . 'orders/orders_list.php',
+        ADMIN_ROUTE . '/orders' => ADMIN_FILES . 'orders/orders_list.php',
+    ];
+}
+
+// Always needed auth routes
+$staticRoutes += [
     ADMIN_ROUTE . '/auth' => ADMIN_FILES . 'auth/login.php',
     ADMIN_ROUTE . '/auth/login' => ADMIN_FILES . 'auth/login.php',
     ADMIN_ROUTE . '/auth/google-auth' => ADMIN_FILES . 'auth/google.php',
     ADMIN_ROUTE . '/access-denied' => ADMIN_FILES . 'auth/access_denied.php',
     ADMIN_ROUTE . '/auth/logout' => ADMIN_FILES . 'auth/logout.php',
-    ADMIN_ROUTE => ADMIN_FILES . 'blogs/posts_list.php',
-    ADMIN_ROUTE . '/dashboard' => ADMIN_FILES . 'blogs/posts_list.php',
-    ADMIN_ROUTE . '/blogs/list' => ADMIN_FILES . 'blogs/posts_list.php',
-    ADMIN_ROUTE . '/blogs/create' => ADMIN_FILES . 'blogs/posts_add.php',
-    ADMIN_ROUTE . '/products' => ADMIN_FILES . 'clothcom/product_list.php',
-    ADMIN_ROUTE . '/products/list' => ADMIN_FILES . 'clothcom/product_list.php',
-    ADMIN_ROUTE . '/products/create' => ADMIN_FILES . 'clothcom/product_add.php',
-    ADMIN_ROUTE . '/products/edit/variants' => ADMIN_FILES . 'clothcom/product_variants.php',
-    ADMIN_ROUTE . '/products/create/boxes' => ADMIN_FILES . 'clothcom/product_boxes.php',
-    ADMIN_ROUTE . '/orders/online' => ADMIN_FILES . 'orders/orders_list.php',
 ];
 $meta;
 PeroMeta::init();
@@ -125,7 +142,7 @@ if ($db && $_ENV['PERO_BLOG'] == true) {
         if ($route->entity_type === 'post') {
             $post = $peroblog->getById($route->entity_id);
             if ($post) {
-                require __DIR__ . '/post.php';
+                require __DIR__ . '/framework/blog_details.php';
                 exit;
             }
         }
@@ -134,7 +151,7 @@ if ($db && $_ENV['PERO_BLOG'] == true) {
             [$posts, $currentPage, $totalPages, $perPage] = $peroblog->getAllByCategoryId($route->entity_id, $currentPage);
             $categories = $peroblog->getAllCategories();
             if ($posts) {
-                require __DIR__ . '/blogs.php';
+                require __DIR__ . '/framework/blogs.php';
                 exit;
             }
         }

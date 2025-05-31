@@ -83,20 +83,21 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!-- <div class="col-lg-9 col-md-9 col-sm-6 d-flex justify-content-lg-center">
+                             <div class="col-lg-9 col-md-9 col-sm-6 d-flex justify-content-lg-center">
                                 <div class="footer-widget">
                                     <div class="widget-title">
                                         <h3>Articles</h3>
                                     </div>
                                     <ul class="widget-list">
-                                        <li><a href="<?=base_url('why-choose-best-website-development-company-punjab')?>">Why Choose the Best Website Development Company in Punjab</a></li>
-                                        <li><a href="<?=base_url('how-top-rated-web-design-services-punjab-boost-online-presence')?>">How Top Rated Web Design Services in Punjab Can Boost Your Online Presence</a></li>
-                                        <li><a href="<?=base_url('how-retail-ecommerce-businesses-benefit-custom-web-development')?>">How Retail & Ecommerce Businesses Benefit from Custom Web Development</a></li>
-                                        <li><a href="<?=base_url('role-of-seo-website-development-why-its-crucial')?>">The Role of SEO in Website Development: Why It's Crucial</a></li>
-                                        <li><a href="<?=base_url('how-web-development-enhances-your-brands-online-identity')?>">How Web Development Enhances Your Brand’s Online Identity</a></li>
+                                        <li><a href="<?=base_url('affordable-website-developer-ludhiana')?>">Affordable Website Developer in Ludhiana</a></li>
+                                        <li><a href="<?=base_url('website-developer-in-ludhiana')?>">Website Developer in Ludhiana</a></li>
+                                        <li><a href="<?=base_url('website-development-company-in-ludhiana')?>">Website Development Company in Ludhiana - Empowering Local Businesses</a></li>
+                                        <!--<li><a href="<?=base_url('how-retail-ecommerce-businesses-benefit-custom-web-development')?>">How Retail & Ecommerce Businesses Benefit from Custom Web Development</a></li>-->
+                                        <!--<li><a href="<?=base_url('role-of-seo-website-development-why-its-crucial')?>">The Role of SEO in Website Development: Why It's Crucial</a></li>-->
+                                        <!--<li><a href="<?=base_url('how-web-development-enhances-your-brands-online-identity')?>">How Web Development Enhances Your Brand’s Online Identity</a></li>-->
                                     </ul>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
